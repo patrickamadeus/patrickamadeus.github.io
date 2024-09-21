@@ -9,11 +9,11 @@ main:
   - title: "Projects"
     url: /project/
   
-  - title: "CV"
-    url: /files/CV.pdf
+  # - title: "CV"
+  #   url: /files/CV.pdf
   
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Resume"
+    url: /CV/    
 
 
   # - title: "Teaching"

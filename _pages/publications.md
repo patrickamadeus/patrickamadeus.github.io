@@ -5,25 +5,23 @@ permalink: /publications/
 author_profile: true
 ---
 
+[SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages](https://arxiv.org/abs/2406.10118)
+===
+Accepted in EMNLP 2025, [SEACrowd Data Catalogue](https://seacrowd.github.io/seacrowd-catalogue/)
+
+Southeast Asia (SEA) is a region rich in linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, prevailing AI models suffer from a significant lack of representation of texts, images, and audio datasets from SEA, compromising the quality of AI models for SEA languages. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the dominance of English training data, raising concerns about potential cultural misrepresentation. To address these challenges, we introduce SEACrowd, a collaborative initiative that consolidates a comprehensive resource hub that fills the resource gap by providing standardized corpora in nearly 1,000 SEA languages across three modalities. Through our SEACrowd benchmarks, we assess the quality of AI models on 36 indigenous languages across 13 tasks, offering valuable insights into the current AI landscape in SEA. Furthermore, we propose strategies to facilitate greater AI advancements, maximizing potential utility and resource equity for the future of AI in SEA.
+
+Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models
+===
+**_arXiv Review_**
+
+Natural Language Explanation (NLE) aims to elucidate the decision-making process by providing detailed, human-friendly explanations in natural language. It helps demystify the decision-making processes of large vision-language models (LVLMs) through the use of language models. While existing methods for creating a Vision Question-Answering with Natural Language Explanation (VQA-NLE) datasets can provide explanations, they heavily rely on human annotations that are time-consuming and costly. In this study, we propose a novel approach that leverages LVLMs to efficiently generate high-quality synthetic VQA-NLE datasets. By evaluating our synthetic data, we showcase how advanced prompting techniques can lead to the production of high-quality VQA-NLE data. Our findings indicate that this proposed method achieves up to 20x faster than human annotation, with only a minimal decrease in qualitative metrics, achieving robust quality that is nearly equivalent to human-annotated data. Furthermore, we show that incorporating visual prompts significantly enhances the relevance of text generation. Our study paves the way for a more efficient and robust automated generation of multi-modal NLE data, offering a promising solution to the problem.
+
 [ProxyLM: Predicting Language Model Performance on Multilingual Tasks via Proxy Models](https://arxiv.org/abs/2406.09334)
 ===
 Published in arXiv
 
 Performance prediction is a method to estimate the performance of Language Models (LMs) on various Natural Language Processing (NLP) tasks, mitigating computational costs associated with model capacity and data for fine-tuning. Our paper introduces ProxyLM, a scalable framework for predicting LM performance using proxy models in multilingual tasks. These proxy models act as surrogates, approximating the performance of the LM of interest. By leveraging proxy models, ProxyLM significantly reduces computational overhead on task evaluations, achieving up to a 37.08x speedup compared to traditional methods, even with our smallest proxy models. Additionally, our methodology showcases adaptability to previously unseen languages in pre-trained LMs, outperforming the state-of-the-art performance by 1.89x as measured by root-mean-square error (RMSE). This framework streamlines model selection, enabling efficient deployment and iterative LM enhancements without extensive computational resources.
-
-[SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages](https://arxiv.org/abs/2406.10118)
-===
-Published in arXiv, [SEACrowd Data Catalogue](https://seacrowd.github.io/seacrowd-catalogue/)
-
-Southeast Asia (SEA) is a region rich in linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, prevailing AI models suffer from a significant lack of representation of texts, images, and audio datasets from SEA, compromising the quality of AI models for SEA languages. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the dominance of English training data, raising concerns about potential cultural misrepresentation. To address these challenges, we introduce SEACrowd, a collaborative initiative that consolidates a comprehensive resource hub that fills the resource gap by providing standardized corpora in nearly 1,000 SEA languages across three modalities. Through our SEACrowd benchmarks, we assess the quality of AI models on 36 indigenous languages across 13 tasks, offering valuable insights into the current AI landscape in SEA. Furthermore, we propose strategies to facilitate greater AI advancements, maximizing potential utility and resource equity for the future of AI in SEA.
-
-
-VQA Reasoning Synthetic Data Generation using Large Vision Language Models
-===
-**_Ongoing research_** under [Ayu Purwarianti](https://scholar.google.co.id/citations?user=8jUro_cAAAAJ&hl=id), [Samuel Cahyawijaya](https://scholar.google.com.hk/citations?user=w5w_WZEAAAAJ&hl=en), & [Genta Indra Winata](https://scholar.google.com.hk/citations?user=7QxkToIAAAAJ&hl=en)
-
-In Visual Question Answering (VQA), having a high-quality reasoning dataset is vital to produce capable system to deliver rational reasoned responses. While prior research has generated dataset by employing novel methodologies to improve the reasoning context within the creation process, the enduring challenges lie in the limitations of data quantity and the substantial resource requirements. To address these concerns, we propose the utilization of Large Language Models (LLMs) for generating synthetic data within the same domain. Previous studies have suggested limitations in reasoning when employing a simplistic prompt approach, hence, we systematically compare the effectiveness of multiple prominent prompting techniques in conjunction with various LLMs.
-
 
 [Automatic Cattle Activity Monitoring for Anomaly Detection Using YOLOv5 and Seasonal Trend Loess](https://drive.google.com/file/d/1ut3iKFoeU_aEArbXdWvpmVPFnebtnb4v/view?pli=1)
 ====
