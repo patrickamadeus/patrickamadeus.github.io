@@ -20,4 +20,4 @@ Currently, I am doing **NLP research** in **Vision-Language** , **Multimodal NLP
 
 > Despite currently in working phase, I am actively looking for any **2025 Master program** that revolves around _Computer Vision_ and/or _NLP_ topics.
 
-Feel free to connect in case you have any inquiries to shoot or opportunities that knock your mind. Happy for a coffee chat :coffee:.
+Feel free to connect in case you have any inquiries to shoot or opportunities that knock your mind. Happy for a coffee chat ☕️.
