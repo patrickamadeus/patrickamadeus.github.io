@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,17 +10,17 @@ redirect_from:
 # Education
 
 ### **Institut Teknologi Bandung**  
-- Graduated in 2024
+- Graduated in 2024, **3.88/4.00**
 -  Activities & Societies: AI & ML Teaching Assistant, ShARE Consulting, IISMA'23 Semester Exchange, CSLeader Scholars  
 -  DataCamp Professional Data Scientist — Issued Aug 2022  
 
 ### **University of California, Davis**  
-- _Part of IISMA 2023 — GPA: 3.94_  
+- _Part of IISMA 2023 — **3.94/4.00**
 -  Notable Courses & Activities: Management Tech, Computational Neuroscience, UC AI Symposium (Paypal, HP)
 
 # Work Experience
 
-**Research Engineer** 
+**Research Engineer**  
 _Singapore Management University_  
 Oct 2024 – Present  
 -  Curating large multilingual datasets for food recognition & recommendation systems.  
@@ -83,12 +83,4 @@ Feb – May 2022
 _ShARE ITB_  
 Aug 2021 – May 2022  
 - Provided KYC service insights for Verihubs’ expansion into 4 SEA countries.
-
-# Certifications
-
-• [DataCamp Professional Data Scientist](https://www.datacamp.com/certificate/DS0027081312856)
-<!-- 
-# Contact
-
-[Github](https://github.com/patrickamadeus) | [LinkedIn](http://www.linkedin.com/in/patrickamadeus) | [Website](https://patrickamadeus.github.io/)   -->
 
