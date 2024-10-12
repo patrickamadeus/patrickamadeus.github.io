@@ -2,24 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Incoming <b>Research Engineer<b/> @ ____
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m a CS freshgraduate from Institut Teknologi Bandung and soon relocating to 🇸🇬. My research interests and experiences are around multimodal, multilingual, and multicultural NLP research.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+### Previously
+- Successfully defended my undergraduate thesis: [Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models ⛏️👁️](https://arxiv.org/abs/2409.14785), which also marks the completion of my B.Eng degree 🎓 from [Institut Teknologi Bandung](https://itb.ac.id).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- During past 1 year, I got multiple NLP research exposures. Supporting [SEACrowd](https://arxiv.org/abs/2406.10118), [ProxyLM](https://arxiv.org/abs/2406.09334), and cooking something right now... 🥘
+
+- Before 2024, I was awarded a merit-based semester exchange scholarship to UC Davis 🇺🇸. I excelled in 6+ multi-discipline courses, reached the finals in a national [data analytics showdown](https://www.domo.com/news/press/domo-announces-finalists-for-higher-education-student-case-competition), volunteered in extracurricular activities, and lived the best chapter of my life 🦅.
+
+- From 2021 to 2023, I completed 4 internships and actively participated in 2 organizations. These serves as my experiences on SWE 🌐, Data Science 📊, and Consulting 💼 domains.
+
