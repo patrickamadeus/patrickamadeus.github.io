@@ -1,38 +1,38 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Patrick Amadeus Irawan
-    - name: Languages
-      value: English, Indonesia
-    - name: More Information
-      value: <a href="https://www.linkedin.com/in/patrick-amadeus-irawan/">LinkedIn</a>, <a href="
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Patrick Amadeus Irawan
+#     - name: Languages
+#       value: English, Indonesia
+#     - name: More Information
+#       value: <a href="https://www.linkedin.com/in/patrick-amadeus-irawan/">LinkedIn</a>, <a href="
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelor of Engineering in Computer Science
-      institution: Institut Teknologi Bandung, Bandung, Indonesia
-      year: 2024
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: Bachelor of Engineering in Computer Science
+#       institution: Institut Teknologi Bandung, Bandung, Indonesia
+#       year: 2024
+#       # description:
+#       #   - Description 1.
+#       #   - Description 2.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Multimodal AI
-      items:
-        - Vision Language
-    - title: Computer Vision
-      # items:
-      #   - Description 1.
-      #   - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Multimodal AI
+#       items:
+#         - Vision Language
+#     - title: Computer Vision
+#       # items:
+#       #   - Description 1.
+#       #   - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Sports, Healthcare, Consulting Industry.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Sports, Healthcare, Consulting Industry.
 
 # - title: Experience
 #   type: time_table
