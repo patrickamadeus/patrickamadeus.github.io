@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming <b>Research Engineer<b/> @ ____
+subtitle: Research Engineer, Software Engineer
 
 profile:
   align: right
@@ -18,6 +18,8 @@ social: true # includes social icons at the bottom of the page
 I’m a CS freshgraduate from Institut Teknologi Bandung. My research interests and experiences are around multimodal, multilingual, and multicultural NLP research.
 
 ### Previously
+- Embarking on my early career journey as a fractional Research/AI Engineer at **Stealth** 🥷 and developing a full-stack energy management solution for [Planville](https://planville.de/) ⚡️.
+  
 - Successfully defended my undergraduate thesis: [Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models ⛏️👁️](https://arxiv.org/abs/2409.14785), which also marks the completion of my B.Eng degree 🎓 from [Institut Teknologi Bandung](https://itb.ac.id).
 
 - During past 1 year, I got multiple NLP research exposures. Supporting [SEACrowd](https://arxiv.org/abs/2406.10118), [ProxyLM](https://arxiv.org/abs/2406.09334), and cooking something right now... 🥘
