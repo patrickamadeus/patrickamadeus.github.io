@@ -1,24 +1,16 @@
 main:
-  - title: 'Worldcuisines: A massive-scale benchmark for multilingual and multicultural visual question answering on global cuisines'
+  - year: 2025
+    title: 'Worldcuisines: A massive-scale benchmark for multilingual and multicultural visual question answering on global cuisines'
     authors: Genta Indra Winata, Frederikus Hudi, <strong>Patrick Amadeus Irawan</strong>, David Anugraha, Rifki Afina Putri, Yutong Wang, Adam Nohejl, Ubaidillah Ariq Prathama, Nedjma Ousidhoum, and others
     conference_short: NAACL
     conference: North American Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2410.12705.pdf
     code: https://worldcuisines.github.io/
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/worldcuisines.png
     notes: 🏆 Best Theme Paper 🏆
 
-  - title: 'SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages'
-    authors: Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James V Miranda, Jennifer Santoso, Elyanah Aco, ..., <strong>Patrick Amadeus Irawan</strong>, and others
-    conference_short: EMNLP
-    conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2024.
-    pdf: https://arxiv.org/pdf/2406.10118.pdf
-    code: https://seacrowd.github.io/seacrowd-catalogue/
-    image: ./assets/img/seacrowd.png
-    notes: Poster
-
-  - title: 'ProxyLM: Predicting Language Model Performance on Multilingual Tasks via Proxy Models'
+  - year: 2025
+    title: 'ProxyLM: Predicting Language Model Performance on Multilingual Tasks via Proxy Models'
     authors: David Anugraha, Genta Indra Winata, Chenyue Li, <strong>Patrick Amadeus Irawan</strong>, En-Shiun Annie Lee
     conference_short: NAACL
     conference: North American Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
@@ -26,8 +18,9 @@ main:
     code: https://github.com/davidanugraha/proxylm
     image: ./assets/img/proxylm.png
     notes: Poster
-  
-  - title: Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models
+
+  - year: 2025
+    title: Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models
     authors: <strong>Patrick Amadeus Irawan</strong>, Genta Indra Winata, Samuel Cahyawijaya, Ayu Purwarianti
     conference_short: COLING
     conference: International Conference on Computational Linguistics <strong>(COLING)</strong>, 2025.
@@ -36,7 +29,18 @@ main:
     image: ./assets/img/vqa-nle.png
     notes: Main (Oral)
 
-  - title: Leveraging IoT and Machine Learning for Efficient Rice Stock Monitoring and Prediction
+  - year: 2024
+    title: 'SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages'
+    authors: Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James V Miranda, Jennifer Santoso, Elyanah Aco, ..., <strong>Patrick Amadeus Irawan</strong>, and others
+    conference_short: EMNLP
+    conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2406.10118.pdf
+    code: https://seacrowd.github.io/seacrowd-catalogue/
+    image: ./assets/img/seacrowd.png
+    notes: Poster
+
+  - year: 2024
+    title: Leveraging IoT and Machine Learning for Efficient Rice Stock Monitoring and Prediction
     authors: Nana Sutisna, Aditya Prawira Nugroho, Christopher Jeffrey, <strong>Patrick Amadeus Irawan</strong>, Rizky Ramadhana, Ronggur Mahendra, Michael Jonathan, Infall Syafalni, Trio Adiono
     conference_short: APSIPA ASC
     conference: 2024 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
@@ -44,7 +48,8 @@ main:
     image: ./assets/img/iot.png
     notes: Main (Oral)
   
-  - title: "Datasheets Aren't Enough: DataRubrics for Automated Quality Metrics and Accountability"
+  - year: 2025
+    title: "Datasheets Aren't Enough: DataRubrics for Automated Quality Metrics and Accountability"
     authors: Genta Indra Winata, David Anugraha, Emmy Liu, Alham Fikri Aji, Shou-Yi Hung, Aditya Parashar, <strong>Patrick Amadeus Irawan</strong>, and others
     pdf: https://arxiv.org/pdf/2506.01789.pdf
     image: ./assets/img/datarubrics.png

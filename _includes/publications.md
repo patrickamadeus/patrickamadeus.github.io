@@ -1,10 +1,15 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
-<div class="publications">
+<div class="publications" style="margin-bottom: 20px;">
+{% assign publications = site.data.publications.main | group_by: "year" | sort: "name" | reverse %}
+{% assign latest_year = publications | map: "name" | first %}
+
+{% for year_group in publications %}
+<details {% if year_group.name == latest_year %}open{% endif %}>
+<summary style="margin-top: 20px; font-weight: bold; cursor: pointer;">{{ year_group.name }}</summary>
 <ol class="bibliography">
 
-{% for link in site.data.publications.main %}
-
+{% for link in year_group.items %}
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -44,8 +49,9 @@
 </div>
 </li>
 <br>
-
 {% endfor %}
 
 </ol>
+</details>
+{% endfor %}
 </div>
