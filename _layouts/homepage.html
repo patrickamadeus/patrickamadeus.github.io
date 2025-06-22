@@ -92,6 +92,101 @@
         </div>
         <br>
 
+        <!-- Message Form -->
+        <div class="message-form" style="margin-top: 20px;">
+          <form id="messageForm" onsubmit="return sendMessage(event)">
+            <input 
+              type="email" 
+              id="emailInput" 
+              placeholder="Your email" 
+              required
+              style="width: 100%;
+                     padding: 8px;
+                     border-radius: 5px;
+                     border: 1px solid #ccc;
+                     margin-bottom: 8px;
+                     font-family: inherit;
+                     font-size: 0.9rem;"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <textarea 
+              id="messageText" 
+              placeholder="Message me" 
+              style="width: 100%; 
+                     padding: 8px; 
+                     border-radius: 5px;
+                     border: 1px solid #ccc;
+                     margin-bottom: 5px;
+                     min-height: 60px;
+                     height: 60px;
+                     resize: vertical;
+                     font-family: inherit;
+                     font-size: 0.9rem;"
+              oninput="checkCharCount(this)"
+              maxlength="200"></textarea>
+            <div id="charCount" style="font-size: 0.8rem; color: #666; margin-bottom: 10px;">
+              0/200 characters
+            </div>
+            <button 
+              id="sendButton" 
+              type="submit" 
+              style="width: 100%;
+                     padding: 8px;
+                     background-color: #0366d6;
+                     color: white;
+                     border: none;
+                     border-radius: 5px;
+                     cursor: pointer;
+                     font-size: 0.9rem;">
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <script>
+          function checkCharCount(textarea) {
+            const chars = textarea.value.length;
+            const charCountElement = document.getElementById('charCount');
+            const sendButton = document.getElementById('sendButton');
+            
+            charCountElement.textContent = `${chars}/200 characters`;
+            
+            if (chars > 200) {
+              charCountElement.style.color = '#dc3545';
+              sendButton.disabled = true;
+              sendButton.style.backgroundColor = '#cccccc';
+              textarea.style.borderColor = '#dc3545';
+            } else {
+              charCountElement.style.color = '#666';
+              sendButton.disabled = false;
+              sendButton.style.backgroundColor = '#0366d6';
+              textarea.style.borderColor = '#ccc';
+            }
+          }
+
+          function sendMessage(event) {
+            event.preventDefault();
+            const email = document.getElementById('emailInput').value;
+            const message = document.getElementById('messageText').value;
+            const chars = message.length;
+            
+            if (chars <= 200) {
+              const emailBody = `Hi Patrick,
+
+${message}
+
+Regards,
+${email}`;
+
+              const mailtoLink = `mailto:patrickamadeusirawan@gmail.com?subject=Site Message from ${encodeURIComponent(email)}&body=${encodeURIComponent(emailBody)}`;
+              window.location.href = mailtoLink;
+              document.getElementById('emailInput').value = '';
+              document.getElementById('messageText').value = '';
+              document.getElementById('charCount').textContent = '0/200 characters';
+            }
+          }
+        </script>
+
+        <!-- End Message Form -->
       </header>
       <section>
 
