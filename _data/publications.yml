@@ -1,5 +1,25 @@
 main:
   - year: 2025
+    title: 'Seeing Culture: A Benchmark for Visual Reasoning and Grounding'
+    authors: Burak Satar, Zhixin Ma, <strong>Patrick Amadeus Irawan</strong>, Wilfried A. Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo,
+    conference_short: EMNLP
+    conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2509.16517v1.pdf
+    code: https://seeingculture-benchmark.github.io/
+    image: ./assets/img/seeingculture.png
+    notes: Poster
+
+  - year: 2025
+    title: 'Entropy2Vec: Crosslingual Language Modeling Entropy as End-to-End Learnable Language Representations'
+    authors: <strong>Patrick Amadeus Irawan</strong>, Ryandito Diandaru, Belati Jagad Bintang Syuhada, Randy Zakya Suchrady, Alham Fikri Aji, Genta Indra Winata, Fajri Koto, Samuel Cahyawijaya
+    conference_short: MRL @ EMNLP
+    conference: Multilingual Representation Learning (MRL) Workshop @ EMNLP 2025
+    pdf: https://arxiv.org/pdf/2509.05060
+    code: 
+    image: ./assets/img/entropy2vec.png
+    notes: Poster
+  
+  - year: 2025
     title: 'Worldcuisines: A massive-scale benchmark for multilingual and multicultural visual question answering on global cuisines'
     authors: Genta Indra Winata, Frederikus Hudi, <strong>Patrick Amadeus Irawan</strong>, David Anugraha, Rifki Afina Putri, Yutong Wang, Adam Nohejl, Ubaidillah Ariq Prathama, Nedjma Ousidhoum, and others
     conference_short: NAACL
