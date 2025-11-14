@@ -4,18 +4,18 @@ layout: homepage
 
 ## About Me
 
-- I am a _first-year_ **PhD Student** at [MBZUAI](https://mbzuai.ac.ae/) 🤖, where I focus on multimodal NLP topics, particularly in vision-language interaction. I venture around VLM and UMM alignment, interpretability, and evaluation.
+- I am a **PhD student** at [MBZUAI](https://mbzuai.ac.ae/) 🤖, where I focus on multimodal NLP topics, particularly vision-language interaction. I also work on vision-language alignment, unified (any) multimodal models, and large-scale evaluations.
 
-- I am also a **Research Engineer** at SMU 🇸🇬, working under the supervision of [Prof. Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en). Our current research work lies at the intersection of multilingual and multimodal interpretation. 
+- Previously, I was a **Research Engineer** at SMU 🇸🇬 working at the intersection of multilingual and multimodal interpretation under Prof.[ Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en). I earned my bachelor’s degree in CS from Institut Teknologi Bandung, where I worked under Prof.[Ayu Purwarianti](https://scholar.google.com/citations?user=8jUro_cAAAAJ&hl=en) on explainable multimodal synthetic data generation. In addition to research, I also do AI engineering for various use cases. You can see my other experiences [here](https://www.linkedin.com/in/patrickamadeus/).
 
-- Previously, I earned my Bachelor’s degree in CS from Institut Teknologi Bandung, where I worked under [Prof. Ayu Purwarianti](https://scholar.google.com/citations?user=8jUro_cAAAAJ&hl=en) on explainable multimodal synthetic data generation. Aside from research, I also do AI Engineering for various use cases. You can see my other experiences [here](https://www.linkedin.com/in/patrickamadeus/).
+- Further, I plan to specialize my studies in developing methods to better align different modalities, with the goal of mitigating modality imbalance, especially in the avenue of unified multimodal models.
 
 ## Research Interests
 
-At the moment, I often explore the following topics, ordered by the degree of my interest and experience:
-1. **Multimodal Alignment:** Vision-language models (VLMs), unified multimodal models (UMMs), and multimodal alignment through both architectural and non-architectural adaptations (e.g., test-time optimization, data reformulation, prompting, RL, etc.).
-2. **Multimodal Interpretability:** Diagnosis of modality imbalance (bimodal, trimodal, cross-modal), neuron-level intervention, analysis of modality attention distribution, and task-specific gradient reweighting.
-3. **Domain-specific Multimodal Applications:** Large-scale data curation and the development of multilingual and multicultural multimodal benchmarks.
+During my study and from my prior experience, I often work around these topics (but not limited to):
+1. **Multimodal Imbalance:** I believe that imbalanced learning is a pressing bottleneck that inhibits us to obtain reliable multimodal models, as modality shortcuts and bias phenomena can harm both of their performance and evaluation objectiveness. My work focuses on discovering the root cause of this bottleneck and exploring methods to better align models in these imbalanced scenarios.
+2. **LLM/VLM Alignment:** I also work on both architectural and non-architectural adaptations (knowledge enrichment, data reformulation, RL) to address above issue and/or improve multimodal language modeling in general.
+3. **Large-Scale Evaluations:** I often question model robustness in varying resource-level scenarios, which requires balancing wide and specific high-quality evaluation coverage. My work in this area aims for better inclusivity in multimodal models, specifically by tackling concept underrepresentation through targeted data curation in multilingual and multicultural domains.
 
 ## Updates
 
