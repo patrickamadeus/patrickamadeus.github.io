@@ -6,9 +6,9 @@ email: patrick.irawan@mbzuai.ac.ae
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Patrick Amadeus Irawan, Patrick, Patrick Amadeus, Patrick Irawan, patrickamadeus, MBZUAI, multimodal, multilingual, multimodal NLP, vision-language models, LLM alignment, unified multimodal models, multilingual benchmarks, visual reasoning, multimodal evaluation, AI research, multimodal model alignment, academic homepage, machine learning, computer vision, large language models, data quality evaluation, google, meta, amazon, apple, EMNLP, NAACL, COLING, AACL, ACL, CVPR, ICCV, NeurIPS, Alham Fikri Aji, Yova Kementhchjiedva
+description: Patrick Amadeus Irawan, PhD student at MBZUAI specializing in multimodal NLP, vision language model, vlm, vision-language alignment, LLM reasoning, and large-scale multilingual evaluation. Publications at EMNLP, NAACL, COLING, AACL, ACL, CVPR, ICCV, NeurIPS
+canonical: https://patrickamadeus.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -38,7 +38,7 @@ font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+google_analytics: G-5Q1EZ4DBG3
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
