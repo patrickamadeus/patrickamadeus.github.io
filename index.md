@@ -12,10 +12,10 @@ layout: homepage
 
 ## Research Interests
 
-During my study and from my prior experience, I often work around these topics (but not limited to):
-1. **Multimodal Imbalance:** I believe that imbalanced learning is a pressing bottleneck that inhibits us to obtain reliable multimodal models, as modality shortcuts and bias phenomena can harm both of their performance and evaluation objectiveness. My work focuses on discovering the root cause of this bottleneck and exploring methods to better align models in these imbalanced scenarios.
-2. **LLM/VLM Alignment:** I also work on both architectural and non-architectural adaptations (knowledge enrichment, data reformulation, RL) to address above issue and/or improve multimodal language modeling in general.
-3. **Large-Scale Evaluations:** I often question model robustness in varying resource-level scenarios, which requires balancing wide and specific high-quality evaluation coverage. My work in this area aims for better inclusivity in multimodal models, specifically by tackling concept underrepresentation through targeted data curation in multilingual and multicultural domains.
+During my studies and prior experience, I have often worked on topics including, but not limited to, the following:
+1. **Multimodal Imbalance:** I believe that imbalanced learning is a significant bottleneck that prevents us from obtaining reliable multimodal models, as modality shortcuts and biases can harm both performance and the objectivity of evaluation. My work focuses on discovering its root causes and exploring methods to better align models to prevent such issues.
+2. **LLM/VLM Alignment:** I also work on both architectural and non-architectural adaptations (knowledge enrichment, data reformulation, RL) to address above issues and/or improve multimodal language modeling in general.
+3. **Large-Scale Evaluations:** I often question model robustness in scenarios with varying resource levels; however, probing this requires designing both broad and specific evaluation coverage. My work in this area aims to design benchmarks that assess the inclusivity of multimodal models, specifically by addressing concept underrepresentation through targeted data curation in multilingual and multicultural domains.
 
 ## Updates
 
