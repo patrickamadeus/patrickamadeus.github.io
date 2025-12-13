@@ -4,9 +4,11 @@ layout: homepage
 
 ## About Me
 
-- I am a **PhD student** at [MBZUAI](https://mbzuai.ac.ae/) 🤖, where I focus on multimodal NLP topics, particularly vision-language interaction. I also work on vision-language alignment, unified (any) multimodal models, and large-scale evaluations.
+- I am a **PhD student** at [MBZUAI](https://mbzuai.ac.ae/) 🤖, where I focus on multimodal NLP topics, particularly vision-language interaction. I also work on vision-language alignment, unified (any) multimodal models, and large-scale evaluations. I am advised by [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en) and [Yova Kementchedjhieva](https://scholar.google.com/citations?user=Br-FqfIAAAAJ&hl=en).
 
-- Previously, I was a **Research Engineer** at SMU 🇸🇬 working at the intersection of multilingual and multimodal interpretation under Prof.[ Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en). I earned my bachelor’s degree in CS from Institut Teknologi Bandung, where I worked under Prof.[Ayu Purwarianti](https://scholar.google.com/citations?user=8jUro_cAAAAJ&hl=en) on explainable multimodal synthetic data generation. In addition to research, I also do AI engineering for various use cases. You can see my other experiences [here](https://www.linkedin.com/in/patrickamadeus/).
+- Previously, I was a **Research Engineer** at SMU 🇸🇬 working at the intersection of multilingual and multimodal interpretation under [ Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en). Before that, I earned my bachelor’s degree in CS from Institut Teknologi Bandung, where I worked under [Ayu Purwarianti](https://scholar.google.com/citations?user=8jUro_cAAAAJ&hl=en) on explainable multimodal synthetic data generation. 
+
+- In addition to research, I also do AI engineering for various use cases. You can see my other experiences [here](https://www.linkedin.com/in/patrickamadeus/).
 
 - Further, I plan to specialize my studies in developing methods to better align different modalities, with the goal of mitigating modality imbalance, especially in the avenue of unified multimodal models.
 
@@ -19,6 +21,8 @@ During my studies and prior experience, I have often worked on topics including,
 
 ## Updates
 
+- **[Nov. 2025]** Our study exposing the confusion of VLMs in cultural-conflict visual scenario is up on [arXiv](https://arxiv.org/abs/2511.17004)!
+- **[Dec. 2025]** [M4-RAG](https://www.arxiv.org/abs/2512.05959) is out on arXiv! We present an evaluation of how multimodal knowledge enrichment helps model in tackling multilingual query. Spoiler, it does not always help... 🤯
 - **[Oct. 2025]** [Entropy2Vec](https://arxiv.org/abs/2509.05060) got accepted into MRL Workshop @ EMNLP 2025 🌐🇨🇳!
 - **[July 2025]** [Seeing Culture Benchmark](https://seeingculture-benchmark.github.io) is accepted to EMNLP 2025 🇨🇳! On to the next one with SMU Multimedia team 💪
 - **[May. 2025]** [DataRubrics](https://arxiv.org/abs/2506.01789) is now on arXiv! We propose a unified scorecard to evaluate data quality on multi-faceted metrics.

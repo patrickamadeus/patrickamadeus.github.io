@@ -1,7 +1,27 @@
 main:
   - year: 2025
+    title: 'Vision Language Models are Confused Tourists'
+    authors: <strong>Patrick Amadeus Irawan</strong>, Ikhlasul Akmal Hanif, Muhammad Dehan Al Kautsar, Genta Indra Winata, Fajri Koto, Alham Fikri Aji
+    # conference_short: Preprint
+    # conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2511.17004
+    # code: https://seeingculture-benchmark.github.io/
+    image: ./assets/img/tourists.png
+    # notes: Poster
+
+  - year: 2025
+    title: 'M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG'
+    authors: David Anugraha, <strong>Patrick Amadeus Irawan</strong>, Anshul Singh, En-Shiun Annie Lee, Genta Indra Winata
+    # conference_short: EMNLP
+    # conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
+    pdf: https://www.arxiv.org/pdf/2512.05959
+    # code: https://seeingculture-benchmark.github.io/
+    image: ./assets/img/m4rag.png
+    # notes: Poster
+
+  - year: 2025
     title: 'Seeing Culture: A Benchmark for Visual Reasoning and Grounding'
-    authors: Burak Satar, Zhixin Ma, <strong>Patrick Amadeus Irawan</strong>, Wilfried A. Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo,
+    authors: Burak Satar, Zhixin Ma, <strong>Patrick Amadeus Irawan</strong>, Wilfried A. Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo
     conference_short: EMNLP
     conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2509.16517v1.pdf
