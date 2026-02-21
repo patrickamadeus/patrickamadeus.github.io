@@ -15,12 +15,18 @@ layout: homepage
 ## Research Interests
 
 During my studies and prior experience, I have often worked on topics including, but not limited to, the following:
-1. **Multimodal Imbalance:** I believe that imbalanced learning is a significant bottleneck that prevents us from obtaining reliable multimodal models, as modality shortcuts and biases can harm both performance and the objectivity of evaluation. My work focuses on discovering its root causes and exploring methods to better align models to prevent such issues.
-2. **LLM/VLM Alignment:** I also work on both architectural and non-architectural adaptations (knowledge enrichment, data reformulation, RL) to address above issues and/or improve multimodal language modeling in general.
-3. **Large-Scale Evaluations:** I often question model robustness in scenarios with varying resource levels; however, probing this requires designing both broad and specific evaluation coverage. My work in this area aims to design benchmarks that assess the inclusivity of multimodal models, specifically by addressing concept underrepresentation through targeted data curation in multilingual and multicultural domains.
+1.	**Modality Utilization in Multimodal Systems:**
+I study how multimodal models allocate attention and capacity across modalities, and why they often under-utilize informative signals in favor of dominant ones. Rather than framing this purely as imbalance, my work focuses on understanding when and why models fail to fully exploit available modalities, leading to sparse utilization, shortcut learning, hallucination, or language over-reliance. I aim to design methods that encourage adaptive, task-aware modality usage in unified multimodal architectures.
+2.	**LLM/VLM Alignment:**
+I work on both architectural and non-architectural adaptations (e.g., knowledge enrichment, data reformulation, reinforcement learning) to improve cross-modal grounding and utilization. The goal is to better align multimodal language models with structured signals from vision and other modalities, ensuring that improvements reflect genuine multimodal reasoning rather than superficial correlations.
+3.	**Action-Conditioned Multimodal Systems:**
+I am also interested in multimodal systems that operate under action-conditioned settings, where perception, language, and decision-making are tightly coupled. Currently, I am exploring how action feedback and interaction signals (e.g., world models, subspace alignment approaches such as C3 and ReAlign) can guide more grounded and consistent modality utilization. The broader goal is to move from passive multimodal understanding toward systems that reason, plan, and adapt through active interaction
+<!-- 3.	**Large-Scale Evaluations:**
+I investigate model robustness under varying resource conditions and modality availability. This involves designing evaluation protocols that probe modality reliance, cross-modal consistency, and inclusivity. In particular, I develop benchmarks that surface concept underrepresentation and test whether models meaningfully leverage diverse multimodal and multilingual signals rather than defaulting to dominant priors. -->
 
 ## Updates
 
+- **[Feb. 2026]** 2 Papers accepted to CVPR 2026! (1 main, 1 findings)
 - **[Nov. 2025]** Our study exposing the confusion of VLMs in cultural-conflict visual scenario is up on [arXiv](https://arxiv.org/abs/2511.17004)!
 - **[Dec. 2025]** [M4-RAG](https://www.arxiv.org/abs/2512.05959) is out on arXiv! We present an evaluation of how multimodal knowledge enrichment helps model in tackling multilingual query. Spoiler, it does not always help... 🤯
 - **[Oct. 2025]** [Entropy2Vec](https://arxiv.org/abs/2509.05060) got accepted into MRL Workshop @ EMNLP 2025 🌐🇨🇳!
