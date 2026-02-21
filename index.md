@@ -16,13 +16,13 @@ layout: homepage
 
 During my studies and prior experience, I have often worked on topics including, but not limited to, the following:
 1.	**Modality Utilization:**
-I study how multimodal models allocate attention and capacity across modalities, and why they often under-utilize informative signals in favor of dominant ones. My work focuses on understanding when and why models fail to fully exploit available modalities, leading to sparse utilization, shortcut learning, hallucination, or language over-reliance. I aim to design methods that encourage adaptive, task-aware modality usage in unified multimodal architectures.
+I study how multimodal models allocate attention and capacity across modalities, and why they often under-utilize informative signals in favor of dominant ones. My work focuses on understanding when and why models fail to fully exploit available modalities, leading to sparse utilization, shortcut learning, hallucination, or language over-reliance. I aim to discover methods that encourage adaptive, task-aware modality usage in unified multimodal architectures.
 2.	**LLM/VLM Alignment:**
-To mitigate above-mentioned problems, I work on both architectural and non-architectural adaptations (e.g., knowledge enrichment, data reformulation, reinforcement learning) to improve cross-modal grounding and utilization. The goal is to better align multimodal language models with structured signals from vision and other modalities, ensuring that improvements reflect genuine multimodal reasoning rather than superficial correlations.
+To mitigate the above-mentioned problems, I work on both training and non-training adaptations to improve cross-modal grounding and utilization. My current work includes training and scaling novel VLM architectures to enhance modality-specific abilities, applying test-time scaling for better fine-grained visual understanding, and curating multimodal reward models.
 3.	**Action-Conditioned Multimodal Systems:**
-I am also interested in multimodal systems that operate under action-conditioned settings, where perception, language, and decision-making are tightly coupled. Currently, I am exploring how action feedback and interaction signals (e.g., world models, subspace alignment approaches such as C3 and ReAlign) can guide more grounded and consistent modality utilization. The broader goal is to move from passive multimodal understanding toward systems that reason, plan, and adapt through active interaction
+I am also interested in multimodal systems that operate under action-conditioned settings, where perception, language, and decision-making are tightly coupled. Currently, I am exploring how action feedback and interaction signals (e.g., world models, subspace alignment approaches such as C3 and ReAlign) can guide more grounded and consistent modality utilization. The broader goal is to move from static understanding toward systems that reason, plan, and adapt through active interaction.
 4.	**Large-Scale Evaluations:**
-Lastly, I often investigate model robustness under varying resource conditions and modality availability. This involves designing evaluation protocols that probe modality reliance, cross-modal consistency, and inclusivity.
+Last but not least, I also often investigate model robustness under varying resource conditions and modality availability. This involves designing evaluation protocols that probe modality reliance, cross-modal consistency, and general inclusivity (multilingual/multicultural).
 
 ## Updates
 
