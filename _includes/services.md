@@ -1,6 +1,6 @@
-## Misc.
+## Experience & Service
 
-<h4 style="margin:0 10px 0;">Experience</h4>
+<h4 style="margin:0 10px 0;">Selected Experience</h4>
 
 <ul style="margin:0 0 5px;">
 {% for role in site.data.experience.main %}
@@ -8,7 +8,7 @@
 {% endfor %}
 </ul>
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<h4 style="margin:0 10px 0;">Reviewing</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href="https://aclrollingreview.org/"><autocolor>ACL Rolling Review (ARR) 2025</autocolor></a></li>

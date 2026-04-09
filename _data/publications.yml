@@ -1,95 +1,111 @@
 main:
-  - year: 2025
-    title: 'Vision Language Models are Confused Tourists'
+  - year: 2026
+    title: "LinguDistill: Recovering Linguistic Ability in Vision Language Models via Selective Cross-Modal Distillation"
+    authors: <strong>Patrick Amadeus Irawan</strong>, Elang Fuadi, Satendra Kumar, Alham Fikri Aji, Yova Kementchedjhieva
+    conference_short: Preprint
+    conference: Preprint, 2026.
+    pdf: https://arxiv.org/abs/2604.00829
+    image: ./assets/img/teaser_example.png
+    summary: Proposes a selective distillation strategy to recover linguistic competence in VLMs without giving up multimodal capability.
+
+  - year: 2026
+    title: "Vision Language Models are Confused Tourists"
     authors: <strong>Patrick Amadeus Irawan</strong>, Ikhlasul Akmal Hanif, Muhammad Dehan Al Kautsar, Genta Indra Winata, Fajri Koto, Alham Fikri Aji
-    conference_short: CVPR 2026 (Findings)
-    # conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
+    conference_short: CVPR 2026 Findings
+    conference: Computer Vision and Pattern Recognition Conference <strong>(CVPR)</strong>, 2026 Findings.
     pdf: https://arxiv.org/pdf/2511.17004
-    # code: https://seeingculture-benchmark.github.io/
     image: ./assets/img/tourists.png
-    # notes: Poster
+    summary: Studies how VLMs misread culturally conflicting visual situations, exposing grounding failures that are invisible to standard benchmarks.
 
-  - year: 2025
-    title: 'M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG'
+  - year: 2026
+    title: "M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG"
     authors: David Anugraha, <strong>Patrick Amadeus Irawan</strong>, Anshul Singh, En-Shiun Annie Lee, Genta Indra Winata
-    conference_short: CVPR 2026 (Main)
-    # conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
+    conference_short: CVPR 2026
+    conference: Computer Vision and Pattern Recognition Conference <strong>(CVPR)</strong>, 2026.
     pdf: https://www.arxiv.org/pdf/2512.05959
-    # code: https://seeingculture-benchmark.github.io/
     image: ./assets/img/m4rag.png
-    # notes: Poster
+    summary: Evaluates whether multimodal retrieval actually helps multilingual and multicultural question answering at scale, and where it fails.
 
   - year: 2025
-    title: 'Seeing Culture: A Benchmark for Visual Reasoning and Grounding'
+    title: "Seeing Culture: A Benchmark for Visual Reasoning and Grounding"
     authors: Burak Satar, Zhixin Ma, <strong>Patrick Amadeus Irawan</strong>, Wilfried A. Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo
-    conference_short: EMNLP
+    conference_short: EMNLP 2025
     conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2509.16517v1.pdf
     code: https://seeingculture-benchmark.github.io/
     image: ./assets/img/seeingculture.png
     notes: Poster
+    summary: Builds a benchmark for culture-sensitive visual reasoning and grounding, pushing evaluation beyond object recognition into contextual interpretation.
 
   - year: 2025
-    title: 'Entropy2Vec: Crosslingual Language Modeling Entropy as End-to-End Learnable Language Representations'
+    title: "Entropy2Vec: Crosslingual Language Modeling Entropy as End-to-End Learnable Language Representations"
     authors: <strong>Patrick Amadeus Irawan</strong>, Ryandito Diandaru, Belati Jagad Bintang Syuhada, Randy Zakya Suchrady, Alham Fikri Aji, Genta Indra Winata, Fajri Koto, Samuel Cahyawijaya
-    conference_short: MRL @ EMNLP
-    conference: Multilingual Representation Learning (MRL) Workshop @ EMNLP 2025
+    conference_short: MRL @ EMNLP 2025
+    conference: Multilingual Representation Learning Workshop at <strong>EMNLP</strong>, 2025.
     pdf: https://arxiv.org/pdf/2509.05060
-    code: 
     image: ./assets/img/entropy2vec.png
     notes: Poster
+    summary: Introduces entropy-based crosslingual representations that treat language modeling uncertainty as an end-to-end learnable signal.
   
   - year: 2025
-    title: 'Worldcuisines: A massive-scale benchmark for multilingual and multicultural visual question answering on global cuisines'
+    title: "WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines"
     authors: Genta Indra Winata, Frederikus Hudi, <strong>Patrick Amadeus Irawan</strong>, David Anugraha, Rifki Afina Putri, Yutong Wang, Adam Nohejl, Ubaidillah Ariq Prathama, Nedjma Ousidhoum, and others
-    conference_short: NAACL
+    conference_short: NAACL 2025
     conference: North American Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2410.12705.pdf
     code: https://worldcuisines.github.io/
     image: ./assets/img/worldcuisines.png
-    notes: 🏆 Best Theme Paper 🏆
+    notes: Best Theme Paper
+    summary: Co-leads a benchmark that tests multilingual and multicultural VQA through food, culture, and visual context rather than English-centric priors.
 
   - year: 2025
-    title: 'ProxyLM: Predicting Language Model Performance on Multilingual Tasks via Proxy Models'
+    title: "ProxyLM: Predicting Language Model Performance on Multilingual Tasks via Proxy Models"
     authors: David Anugraha, Genta Indra Winata, Chenyue Li, <strong>Patrick Amadeus Irawan</strong>, En-Shiun Annie Lee
-    conference_short: NAACL
+    conference_short: NAACL 2025
     conference: North American Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2406.09334.pdf
     code: https://github.com/davidanugraha/proxylm
     image: ./assets/img/proxylm.png
     notes: Poster
+    summary: Predicts multilingual model performance with cheaper proxy models, reducing evaluation cost when exploring large design spaces.
 
   - year: 2025
-    title: Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models
+    title: "Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models"
     authors: <strong>Patrick Amadeus Irawan</strong>, Genta Indra Winata, Samuel Cahyawijaya, Ayu Purwarianti
-    conference_short: COLING
+    conference_short: COLING 2025
     conference: International Conference on Computational Linguistics <strong>(COLING)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2409.14785.pdf
     code: https://github.com/patrickamadeus/vqa-nle-llava
     image: ./assets/img/vqa-nle.png
-    notes: Main (Oral)
+    notes: Oral
+    summary: Develops a more efficient pipeline for generating VQA explanations with VLMs, improving synthetic supervision for grounded reasoning.
+
+  - year: 2025
+    title: "Datasheets Aren't Enough: DataRubrics for Automated Quality Metrics and Accountability"
+    authors: Genta Indra Winata, David Anugraha, Emmy Liu, Alham Fikri Aji, Shou-Yi Hung, Aditya Parashar, <strong>Patrick Amadeus Irawan</strong>, and others
+    conference_short: Preprint
+    conference: Preprint, 2025.
+    pdf: https://arxiv.org/pdf/2506.01789.pdf
+    image: ./assets/img/datarubrics.png
+    summary: Proposes an automated scorecard for dataset quality and accountability, making data auditing more systematic and comparable.
 
   - year: 2024
-    title: 'SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages'
+    title: "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages"
     authors: Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James V Miranda, Jennifer Santoso, Elyanah Aco, ..., <strong>Patrick Amadeus Irawan</strong>, and others
-    conference_short: EMNLP
+    conference_short: EMNLP 2024
     conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2406.10118.pdf
     code: https://seacrowd.github.io/seacrowd-catalogue/
     image: ./assets/img/seacrowd.png
     notes: Poster
+    summary: Contributes to a multilingual multimodal data hub and benchmark suite centered on Southeast Asian languages, expanding evaluation beyond high-resource settings.
 
   - year: 2024
-    title: Leveraging IoT and Machine Learning for Efficient Rice Stock Monitoring and Prediction
+    title: "Leveraging IoT and Machine Learning for Efficient Rice Stock Monitoring and Prediction"
     authors: Nana Sutisna, Aditya Prawira Nugroho, Christopher Jeffrey, <strong>Patrick Amadeus Irawan</strong>, Rizky Ramadhana, Ronggur Mahendra, Michael Jonathan, Infall Syafalni, Trio Adiono
-    conference_short: APSIPA ASC
-    conference: 2024 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+    conference_short: APSIPA ASC 2024
+    conference: Asia Pacific Signal and Information Processing Association Annual Summit and Conference <strong>(APSIPA ASC)</strong>, 2024.
     pdf: http://www.apsipa2024.org/files/papers/375.pdf
     image: ./assets/img/iot.png
-    notes: Main (Oral)
-  
-  - year: 2025
-    title: "Datasheets Aren't Enough: DataRubrics for Automated Quality Metrics and Accountability"
-    authors: Genta Indra Winata, David Anugraha, Emmy Liu, Alham Fikri Aji, Shou-Yi Hung, Aditya Parashar, <strong>Patrick Amadeus Irawan</strong>, and others
-    pdf: https://arxiv.org/pdf/2506.01789.pdf
-    image: ./assets/img/datarubrics.png
+    notes: Oral
+    summary: Applies machine learning and sensor systems to real-world stock monitoring, showing the engineering side of my research background.

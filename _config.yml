@@ -2,12 +2,17 @@
 title: Patrick Amadeus Irawan
 position: PhD Student
 affiliation: MBZUAI
+affiliation_link: https://mbzuai.ac.ae/
 email: patrick.irawan@mbzuai.ac.ae
+author: Patrick Amadeus Irawan
+locale: en_US
+url: https://patrickamadeus.github.io
+baseurl: ""
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Patrick Amadeus Irawan, Patrick, Patrick Amadeus, Patrick Irawan, patrickamadeus, MBZUAI, multimodal, multilingual, multimodal NLP, vision-language models, LLM alignment, unified multimodal models, multilingual benchmarks, visual reasoning, multimodal evaluation, AI research, multimodal model alignment, academic homepage, machine learning, computer vision, large language models, data quality evaluation, google, meta, amazon, apple, EMNLP, NAACL, COLING, AACL, ACL, CVPR, ICCV, NeurIPS, Alham Fikri Aji, Yova Kementhchjiedva
-description: Patrick Amadeus Irawan, PhD student at MBZUAI specializing in multimodal NLP, vision language model, vlm, vision-language alignment, LLM reasoning, and large-scale multilingual evaluation. Publications at EMNLP, NAACL, COLING, AACL, ACL, CVPR, ICCV, NeurIPS
+keywords: Patrick Amadeus Irawan, Patrick Irawan, patrickamadeus, MBZUAI, multimodal foundation models, multimodal alignment, vision-language models, large multimodal models, multimodal NLP, multilingual multimodal evaluation, multicultural benchmarks, VLM post-training, multimodal reasoning, multimodal retrieval augmented generation, WorldCuisines, Seeing Culture, SEACrowd, M4-RAG, ProxyLM, Entropy2Vec, DataRubrics, CVPR 2026, EMNLP 2025, NAACL 2025, COLING 2025, academic website, AI researcher
+description: Patrick Amadeus Irawan is a PhD student at MBZUAI working on multimodal foundation models, post-training and alignment, multilingual and multicultural evaluation, and grounded vision-language systems.
 canonical: https://patrickamadeus.github.io/
 
 # Links 
@@ -55,3 +60,4 @@ exclude:
   - LICENSE
   - minimal-light.gemspec
   - html_source_file/
+  - vendor/
