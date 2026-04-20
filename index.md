@@ -13,7 +13,9 @@ effectively across diverse perceptual / action-based inputs without relying on m
 
 ## Research Interests
 
-> I am interested in building multimodal systems that reasonably leverage all varying perceptual & contextual inputs to make grounded decisions and responses, rather than relying on shortcuts from a single modality.
+<div style="margin: 0 0 24px; padding: 18px 22px; border-left: 4px solid #2496cb; background: rgba(36, 150, 203, 0.08); font-style: italic;">
+I am interested in creating a multimodal systems that truly perceives all inputs to make grounded judgments and responses, rather than relying on modality-specific shortcuts or shallow priors.
+</div>
 
 1. **Modality Utilization.**  
     I study how multimodal models decide what to attend to, and why they often rely on dominant signals (e.g., language) instead of fully using other multimodal inputs. This leads to shortcut learning, hallucination, and weak grounding.  
