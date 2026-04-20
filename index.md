@@ -4,23 +4,36 @@ layout: homepage
 
 ## About Me
 
-- I am a **PhD student** at [MBZUAI](https://mbzuai.ac.ae/), advised by [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en) and [Yova Kementchedjhieva](https://scholar.google.com/citations?user=Br-FqfIAAAAJ&hl=en). My work focuses on multimodal foundation models, post-training and alignment, grounded vision-language systems, and large-scale evaluation.
+- I am a **PhD student** at [MBZUAI](https://mbzuai.ac.ae/), advised by [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en) and [Yova Kementchedjhieva](https://scholar.google.com/citations?user=Br-FqfIAAAAJ&hl=en). My work focuses on multimodal learning, post-training and alignment, grounded vision-language systems, and large-scale evaluation.
 
 - Previously, I was a **Research Engineer** at Singapore Management University, where I worked on multilingual and multimodal interpretation with [Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en). Before that, I earned my **B.Eng. in Computer Science** from Institut Teknologi Bandung, where I worked with [Ayu Purwarianti](https://scholar.google.com/citations?user=8jUro_cAAAAJ&hl=en) on synthetic data generation for explainable multimodal reasoning.
 
-- My goal is to build multimodal systems that can properly utilize multimodal evidence and interaction feedback rather than relying on modality-specific shortcuts.
+- I further aim to build multimodal systems that reason
+effectively across diverse perceptual / action-based inputs without relying on modality-specific shortcuts.
 
 ## Research Interests
 
-<div style="margin: 0 0 24px; padding: 18px 22px; border-left: 4px solid #2496cb; background: rgba(36, 150, 203, 0.08); font-style: italic;">
-I am interested in creating a multimodal systems that truly perceives all inputs to make grounded judgments and responses, rather than relying on modality-specific shortcuts or shallow priors.
-</div>
+> I am interested in building multimodal systems that reasonably leverage all varying perceptual & contextual inputs to make grounded decisions and responses, rather than relying on shortcuts from a single modality.
 
-1. **Modality Utilization.** I study how multimodal models allocate attention and capacity across modalities, and why they often under-utilize informative signals in favor of dominant ones. My work focuses on understanding when and why models fail to fully exploit available modalities, leading to sparse utilization, shortcut learning, hallucination, or language over-reliance. This direction is reflected in the [Synthetic-VQA-NLE](https://arxiv.org/abs/2409.14785) framework, which enables the generation of explainable and sound synthetic VQA data; [SeeingCulture](https://arxiv.org/abs/2509.16517), which diagnoses the lack of domain awareness that distorts visual grounding; and [ConfusedTourists](https://arxiv.org/abs/2511.17004), which points out how perturbing context can trigger biased behavior in grounding systems.
+1. **Modality Utilization.**  
+    I study how multimodal models decide what to attend to, and why they often rely on dominant signals (e.g., language) instead of fully using other multimodal inputs. This leads to shortcut learning, hallucination, and weak grounding.  
+    - [Synthetic-VQA-NLE](https://arxiv.org/abs/2409.14785): synthetic explainable VQA generation pipeline, evaluates VQA reasoning of SOTA VLMs (at the time)
+    - [SeeingCulture](https://arxiv.org/abs/2509.16517): shows how lack of domain awareness harms visual grounding and segmentation ability
+    - [ConfusedTourists](https://arxiv.org/abs/2511.17004): evaluates how semantically-aligned perturbation context changes trigger biased visual grounding
+    - [CountingTricks](https://arxiv.org/abs/2604.10039): exposes straightforward perceptual counting ability of VLMs and how attention-balancing RL post-training may help mitigate this
 
-2. **Post-Training on Action-Conditioned Supervision Signals.** To mitigate the above problems, I work on both training and non-training adaptations to improve cross-modal grounding and utilization. My current interests include post-training signals that recover or sharpen modality-specific abilities, distillation, and supervision schemes that could eventually support action-conditioned multimodal systems in which perception, language, and decision-making are tightly coupled. This direction is reflected most directly in [LinguDistill](https://arxiv.org/abs/2604.00829), for its cross-modal distillation attempt to recover the language-centric ability of VLMs, and also connects back to [Synthetic-VQA-NLE](https://arxiv.org/abs/2409.14785) as an earlier step toward better grounded supervision. As you are reading this webpage, I am also actively leading a world model evaluation research to assess plan-action cross-modal consistency, as well as involved in a memory-based VLMs research to boost modality grounding and prevent modality-specific forgetting.
+2. **Post-Training & Cross-Modal Alignment.**  
+    To address these issues, I work on post-training methods that improve how models use and connect modalities, including distillation and dynamic supervision signals (action-conditioned signals, RL). The goal is to recover missing abilities and strengthen cross-modal alignment.  
+    - [LinguDistill](https://arxiv.org/abs/2604.00829): uses cross-modal distillation to recover degraded language abilities in VLMs  
+    - [Synthetic-VQA-NLE](https://arxiv.org/abs/2409.14785): also supports more grounded supervision signals  
+    - Ongoing: world model evaluation for plan–action consistency, and memory-based VLMs to improve long-term grounding  
 
-3. **Large-Scale Evaluation.** I also often investigate model robustness under varying resource conditions and modality availability. This involves designing evaluation protocols and infrastructure that probe modality reliance, cross-modal consistency, and broad inclusivity at scale. This direction is reflected in award-winning [WorldCuisine](https://arxiv.org/abs/2410.12705), [SEACrowd](https://arxiv.org/abs/2406.10118) both as a paper and through active organization involvement, [ProxyLM](https://arxiv.org/abs/2406.09334), and [DataRubrics](https://arxiv.org/abs/2506.01789), which together study scalable benchmarking, performance prediction, and data quality assessment.
+3. **Large-Scale Evaluation.**  
+    I also keen on being critical at designing faithful large-scale evaluation setups to understand how models behave under distribution shifts, missing modalities, or limited resources, with focus on reliability and robustness at scale.
+    - [WorldCuisine](https://arxiv.org/abs/2410.12705): benchmarks domains-specific cultural and multilingual reasoning in VQA
+    - [SEACrowd](https://arxiv.org/abs/2406.10118): builds large-scale multimodal datasets hub for underrepresented languages in 4+ modality mixtures
+    - [ProxyLM](https://arxiv.org/abs/2406.09334): efficient multilingual performance prediction system leveraging data and language features
+    - [DataRubrics](https://arxiv.org/abs/2506.01789): studies data quality and faithful benchmark creation aspects
 
 ## Updates
 
