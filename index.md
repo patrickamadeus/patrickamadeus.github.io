@@ -14,7 +14,7 @@ effectively across diverse perceptual / action-based inputs without relying on m
 ## Research Interests
 
 <div style="margin: 0 0 24px; padding: 18px 22px; border-left: 4px solid #2496cb; background: rgba(36, 150, 203, 0.08); font-style: italic;">
-I am interested in creating a multimodal systems that truly perceives all inputs to make grounded judgments and responses, rather than relying on modality-specific shortcuts or shallow priors.
+I am interested in building multimodal systems that reasonably leverage its perceptual & semantic inputs to make grounded decisions and responses, rather than relying on shortcuts from a single modality.
 </div>
 
 1. **Modality Utilization.**  
