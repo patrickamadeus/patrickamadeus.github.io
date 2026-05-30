@@ -1,6 +1,6 @@
 ---
-
-## layout: homepage
+layout: homepage
+---
 
 ## About Me
 
@@ -12,7 +12,9 @@ My goal is to build multimodal systems that perceive, reason, and generate groun
 
 ## Research Interests
 
-> *I am interested in understanding the discrepancy between multimodal understanding and generation, and innovating methods to minimize such gap.*
+<div style="margin: 0 0 24px; padding: 18px 22px; border-left: 4px solid #2496cb; background: rgba(36, 150, 203, 0.08); font-style: italic;">
+I am interested in understanding the discrepancy between multimodal understanding and generation, and innovating methods to minimize such gap.
+</div>
 
 Multimodal models often appear to understand an image well when asked to describe it in dominant modality (e.g. text). But when the same model is asked to use that understanding to generate in non-dominant modality, like images or video, it fails on multiple aspects. My research starts by diagnosing where and why this breakdown happens, then works on the solutions that minimize such discrepancy.
 
