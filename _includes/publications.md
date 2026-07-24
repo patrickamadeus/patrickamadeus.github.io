@@ -1,12 +1,16 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
 <div class="publications" style="margin-bottom: 20px;">
-{% assign publications = site.data.publications.main | group_by: "year" | sort: "name" | reverse %}
-{% assign latest_year = publications | map: "name" | first %}
+{% assign themes = site.data.publications.main | group_by: "theme" %}
 
-{% for year_group in publications %}
+{% for theme_group in themes %}
+<h3 style="margin-top: 24px; margin-bottom: 8px;">{{ theme_group.name }}</h3>
+{% assign year_groups = theme_group.items | group_by: "year" | sort: "name" | reverse %}
+{% assign latest_year = year_groups | map: "name" | first %}
+
+{% for year_group in year_groups %}
 <details {% if year_group.name == latest_year %}open{% endif %}>
-<summary style="margin-top: 20px; font-weight: bold; cursor: pointer;">{{ year_group.name }}</summary>
+<summary style="margin-top: 12px; font-weight: bold; cursor: pointer;">{{ year_group.name }}</summary>
 <ol class="bibliography">
 
 {% for link in year_group.items %}
@@ -64,5 +68,6 @@
 
 </ol>
 </details>
+{% endfor %}
 {% endfor %}
 </div>
