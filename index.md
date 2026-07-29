@@ -1,6 +1,6 @@
 ---
-
-## layout: homepage
+layout: homepage
+---
 
 ## About Me
 
@@ -17,13 +17,11 @@ Ultimately, I hope to build multimodal systems that can perceive, reason, act, a
 My research is centered on this question. I am interested in building multimodal systems that can keep improving from data, interaction, and observation, rather than relying only on larger pretraining datasets or brute-force scaling.
 
 - **Efficient Multimodal Learning**  
-I aspire to build methods to acquire multimodal capabilities with less data, less supervision, and less compute. I am particularly interested in learning via curriculum learning and better architecture.
+  I aspire to build methods to acquire multimodal capabilities with less data, less supervision, and less compute. I am particularly interested in learning via curriculum learning and better architecture.
 - **Self-Improving System**  
-Then, I am also interested how such process can be done at inference time autonomously with proper training orchestration. This line of work includes [LinguDistill](https://arxiv.org/abs/2604.00829) and emerging efforts around inference-time adaptation and continual improvement.
+  Then, I am also interested how such process can be done at inference time autonomously with proper training orchestration. This line of work includes [LinguDistill](https://arxiv.org/abs/2604.00829) and emerging efforts around inference-time adaptation and continual improvement.
 - **Large-scale Evaluations**  
-I also develop benchmarks that diagnose where current multimodal systems fail and how progress should be measured. This includes work on [ConfusedTourists](https://arxiv.org/abs/2511.17004), [CountingTricks](https://arxiv.org/abs/2604.10039), [SeeingCulture](https://arxiv.org/abs/2509.16517), [WorldCuisine](https://arxiv.org/abs/2410.12705), [SEACrowd](https://arxiv.org/abs/2406.10118), and related evaluation efforts.
-
-
+  I also develop benchmarks that diagnose where current multimodal systems fail and how progress should be measured. This includes work on [ConfusedTourists](https://arxiv.org/abs/2511.17004), [CountingTricks](https://arxiv.org/abs/2604.10039), [SeeingCulture](https://arxiv.org/abs/2509.16517), [WorldCuisine](https://arxiv.org/abs/2410.12705), [SEACrowd](https://arxiv.org/abs/2406.10118), and related evaluation efforts.
 
 ## Updates
 
