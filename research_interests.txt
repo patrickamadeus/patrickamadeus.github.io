@@ -1,0 +1,5 @@
+Research Interests
+
+My overarching goal is to build efficient, self-evolving multimodal systems that can acquire new skills and improve after deployment. I study test-time training, inference-time scaling, continual learning, and self-refinement as mechanisms for learning from data, feedback, and interaction. My prior work spans VLM post-training and multilingual, multicultural, and low-resource multimodal evaluation.
+
+Research Areas: efficient multimodal learning • test-time adaptation and self-improvement • multimodal reasoning and evaluation

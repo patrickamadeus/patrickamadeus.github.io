@@ -1,12 +1,4 @@
-## Experience & Service
-
-<h4 style="margin:0 10px 0;">Selected Experience</h4>
-
-<ul style="margin:0 0 5px;">
-{% for role in site.data.experience.main %}
-  <li>{{ role.title }} @ <i>{{ role.company }}</i> ({{ role.period }})</li>
-{% endfor %}
-</ul>
+## Service
 
 <h4 style="margin:0 10px 0;">Reviewing</h4>
 

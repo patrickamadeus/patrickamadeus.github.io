@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a PhD researcher at [MBZUAI](https://mbzuai.ac.ae/), advised by [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en). I build adaptive multimodal systems that can acquire new capabilities while preserving what they already know. My current work focuses on efficient adaptation for vision-language models, including efficient post-training, capability preservation, model training, and large-scale multimodal evaluation.
+I am a PhD researcher at [MBZUAI](https://mbzuai.ac.ae/), advised by [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en). I build adaptive multimodal systems that can acquire new capabilities while preserving what they already know.
 
 Previously, I was a Research Engineer at [Singapore Management University](https://www.smu.edu.sg/) under [Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en), where I worked on multilingual and multimodal learning. During my undergraduate studies at [Institut Teknologi Bandung](https://www.itb.ac.id/) under [Ayu Purwarianti](https://scholar.google.com/citations?user=8jUro_cAAAAJ&hl=en), I developed efficient methods for generating explainable visual question-answering data.
 
@@ -20,9 +20,11 @@ How can we design multimodal systems that can efficiently perceive evolving worl
 - **Self-improvement** — test-time learning, test-time adaptation, self-refinement, continual learning, self evolving agents
 - **Reasoning and evaluation** — multimodal reasoning, multimodal robustness evaluation, multilingual, multicultural, and low-resource evaluation
 
-<div class="bluediv">
-I am open to <strong>2027 Research Scientist Intern</strong>, <strong>Applied Scientist Intern</strong>, and <strong>Research Intern</strong> opportunities in multimodal AI, machine learning, and vision-language models.
-</div>
+## Publications
+
+My work spans efficient multimodal learning and VLM post-training, inference-time adaptation and self-improving systems, and multilingual, multicultural, and robustness evaluation.
+
+<div class="publication-links"><a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar &#8599;</a><span aria-hidden="true">&middot;</span><a href="{{ '/publications/' | relative_url }}">Full publication list &rarr;</a></div>
 
 ## Experience
 
@@ -43,7 +45,5 @@ I am open to <strong>2027 Research Scientist Intern</strong>, <strong>Applied Sc
 - **[Apr. 2025]** [WorldCuisines](https://worldcuisines.github.io/) receives **Best Theme Paper** at **NAACL 2025** 🎉🌏🍽️
 - **[Mar. 2025]** Admitted to the Fall 2025 cohort of the **MBZUAI PhD program in NLP** 📚
 - **[Jan. 2025]** [WorldCuisines](https://worldcuisines.github.io/) and [ProxyLM](https://github.com/davidanugraha/proxylm) are accepted to **NAACL 2025** 🇺🇸🎖️
-
-{% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}

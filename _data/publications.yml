@@ -2,12 +2,44 @@ main:
   - year: 2026
     theme: Adaptive Learning
     title: "LinguDistill: Recovering Linguistic Ability in Vision Language Models via Selective Cross-Modal Distillation"
-    authors: <strong>Patrick Amadeus Irawan</strong>, Elang Fuadi, Satendra Kumar, Alham Fikri Aji, Yova Kementchedjhieva
+    authors: <strong>Patrick Amadeus Irawan</strong>, Erland Hilman Fuadi, Shanu Kumar, Alham Fikri Aji, Yova Kementchedjhieva
     conference_short: Preprint
     conference: Preprint, 2026.
     pdf: https://arxiv.org/abs/2604.00829
-    image: ./assets/img/teaser_example.png
-    summary: Proposes a selective distillation strategy to recover linguistic competence in VLMs without giving up multimodal capability.
+    image: ./assets/img/lingudistill.png
+    summary: LinguDistill restores linguistic competence in VLMs through selective cross-modal distillation without sacrificing multimodal capability.
+
+  - year: 2026
+    theme: Evaluation
+    title: "Counting to Four is still a Chore for VLMs"
+    authors: Duy Le Dinh Anh, <strong>Patrick Amadeus Irawan</strong>, Tuan Van Vo
+    conference_short: CVPR 2026 Workshop
+    conference: Computer Vision and Pattern Recognition Conference <strong>(CVPR)</strong> Workshop, 2026.
+    pdf: https://arxiv.org/abs/2604.10039
+    code: https://github.com/leduy99/-CVPRW26-Modality-Attention-Share
+    image: ./assets/img/countingtricks.png
+    summary: The study traces simple counting failures in VLMs and tests whether an attention-budget intervention improves grounding.
+
+  - year: 2026
+    theme: Evaluation
+    title: "Anthropogenic Regional Adaptation in Multimodal Vision-Language Model"
+    authors: Samuel Cahyawijaya, Peerat Limkonchotiwat, Tack Hwa Wong, Hitesh Laxmichand Patel, and others, including <strong>Patrick Amadeus Irawan</strong>
+    conference_short: Preprint
+    conference: Preprint, 2026.
+    pdf: https://arxiv.org/abs/2604.11490
+    image: ./assets/img/anthropogenic-regional-adaptation.png
+    summary: Regional data filtering and model merging improve Southeast Asian cultural relevance without sacrificing global performance.
+
+  - year: 2026
+    theme: Evaluation
+    title: "Can Large Language Models Understand, Reason About, and Generate Code-Switched Text?"
+    authors: Genta Indra Winata, David Anugraha, <strong>Patrick Amadeus Irawan</strong>, Anirban Das, Haneul Yoo, and others
+    conference_short: Preprint
+    conference: Preprint, 2026.
+    pdf: https://arxiv.org/abs/2601.07153
+    code: https://github.com/gentaiscool/codemixqa
+    image: ./assets/img/codemixqa.png
+    summary: CodeMixQA tests LLM understanding, reasoning, and generation across 16 code-switched language-pair variants.
 
   - year: 2026
     theme: Evaluation
@@ -17,7 +49,7 @@ main:
     conference: Computer Vision and Pattern Recognition Conference <strong>(CVPR)</strong>, 2026 Findings.
     pdf: https://arxiv.org/pdf/2511.17004
     image: ./assets/img/tourists.png
-    summary: Studies how VLMs misread culturally conflicting visual situations, exposing grounding failures that are invisible to standard benchmarks.
+    summary: This study shows where VLMs misread culturally conflicting visual situations and which grounding failures standard benchmarks miss.
 
   - year: 2026
     theme: Adaptive Learning
@@ -27,7 +59,7 @@ main:
     conference: Computer Vision and Pattern Recognition Conference <strong>(CVPR)</strong>, 2026.
     pdf: https://www.arxiv.org/pdf/2512.05959
     image: ./assets/img/m4rag.png
-    summary: Evaluates whether multimodal retrieval actually helps multilingual and multicultural question answering at scale, and where it fails.
+    summary: M4-RAG tests when multimodal retrieval helps multilingual and multicultural question answering and when it fails.
 
   - year: 2025
     theme: Evaluation
@@ -39,7 +71,7 @@ main:
     code: https://seeingculture-benchmark.github.io/
     image: ./assets/img/seeingculture.png
     notes: Poster
-    summary: Builds a benchmark for culture-sensitive visual reasoning and grounding, pushing evaluation beyond object recognition into contextual interpretation.
+    summary: Seeing Culture tests culture-sensitive visual reasoning and grounding beyond object recognition.
 
   - year: 2025
     theme: Data-centric Learning
@@ -50,7 +82,7 @@ main:
     pdf: https://arxiv.org/pdf/2509.05060
     image: ./assets/img/entropy2vec.png
     notes: Poster
-    summary: Introduces entropy-based crosslingual representations that treat language modeling uncertainty as an end-to-end learnable signal.
+    summary: Entropy2Vec turns language-model uncertainty into dense cross-lingual representations for multilingual NLP tasks.
 
   - year: 2025
     theme: Evaluation
@@ -62,7 +94,7 @@ main:
     code: https://worldcuisines.github.io/
     image: ./assets/img/worldcuisines.png
     notes: Best Theme Paper
-    summary: Co-leads a benchmark that tests multilingual and multicultural VQA through food, culture, and visual context rather than English-centric priors.
+    summary: WorldCuisines tests multilingual and multicultural VQA through food imagery and cultural context instead of English-centric priors.
 
   - year: 2025
     theme: Data-centric Learning
@@ -74,7 +106,7 @@ main:
     code: https://github.com/davidanugraha/proxylm
     image: ./assets/img/proxylm.png
     notes: Poster
-    summary: Predicts multilingual model performance with cheaper proxy models, reducing evaluation cost when exploring large design spaces.
+    summary: ProxyLM uses cheaper proxy models to estimate multilingual model performance at lower evaluation cost.
 
   - year: 2025
     theme: Data-centric Learning
@@ -86,7 +118,7 @@ main:
     code: https://github.com/patrickamadeus/vqa-nle-llava
     image: ./assets/img/vqa-nle.png
     notes: Oral
-    summary: Develops a more efficient pipeline for generating VQA explanations with VLMs, improving synthetic supervision for grounded reasoning.
+    summary: The pipeline generates VQA explanations more efficiently for use as synthetic supervision in grounded reasoning.
 
   - year: 2025
     theme: Evaluation
@@ -96,7 +128,7 @@ main:
     conference: Preprint, 2025.
     pdf: https://arxiv.org/pdf/2506.01789.pdf
     image: ./assets/img/datarubrics.png
-    summary: Proposes an automated scorecard for dataset quality and accountability, making data auditing more systematic and comparable.
+    summary: DataRubrics scores dataset quality and accountability so audits are easier to compare.
 
   - year: 2024
     theme: Evaluation
@@ -108,7 +140,7 @@ main:
     code: https://seacrowd.github.io/seacrowd-catalogue/
     image: ./assets/img/seacrowd.png
     notes: Poster
-    summary: Contributes to a multilingual multimodal data hub and benchmark suite centered on Southeast Asian languages, expanding evaluation beyond high-resource settings.
+    summary: SEACrowd provides multilingual and multimodal datasets and benchmarks for low-resource Southeast Asian evaluation.
 
   - year: 2024
     theme: Other
@@ -119,4 +151,4 @@ main:
     pdf: http://www.apsipa2024.org/files/papers/375.pdf
     image: ./assets/img/iot.png
     notes: Oral
-    summary: Applies machine learning and sensor systems to real-world stock monitoring, showing the engineering side of my research background.
+    summary: The system combines sensors and machine learning to monitor and predict rice stocks.

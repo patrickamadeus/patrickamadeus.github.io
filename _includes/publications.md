@@ -1,73 +1,58 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<div class="publications publications-page">
+  <h1>Publications</h1>
+  <p class="publications-intro">
+    Efficient multimodal learning <span aria-hidden="true">&middot;</span>
+    Self-improving systems <span aria-hidden="true">&middot;</span>
+    Multilingual and multicultural evaluation <span aria-hidden="true">&middot;</span>
+    Multimodal reasoning and robustness
+  </p>
 
-<div class="publications" style="margin-bottom: 20px;">
-{% assign themes = site.data.publications.main | group_by: "theme" %}
-
-{% for theme_group in themes %}
-<h3 style="margin-top: 24px; margin-bottom: 8px;">{{ theme_group.name }}</h3>
-{% assign year_groups = theme_group.items | group_by: "year" | sort: "name" | reverse %}
-{% assign latest_year = year_groups | map: "name" | first %}
-
-{% for year_group in year_groups %}
-<details {% if year_group.name == latest_year %}open{% endif %}>
-<summary style="margin-top: 12px; font-weight: bold; cursor: pointer;">{{ year_group.name }}</summary>
-<ol class="bibliography">
-
-{% for link in year_group.items %}
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" alt="{{ link.title }} teaser" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
+  {% assign year_groups = site.data.publications.main | group_by: "year" | sort: "name" | reverse %}
+  {% for year_group in year_groups %}
+  <div class="publication-year" id="year-{{ year_group.name }}">
+    <h2>{{ year_group.name }}</h2>
+    <ol class="bibliography">
+      {% for link in year_group.items %}
+      <li>
+        <div class="pub-row">
+          {% if link.image %}
+          <div class="col-sm-3 abbr publication-image">
+            {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank" rel="noopener">{% endif %}
+            <img src="{{ link.image | relative_url }}" alt="Figure from {{ link.title }}" class="teaser img-fluid z-depth-1">
+            {% if link.pdf %}</a>{% endif %}
+            {% if link.conference_short %}
+            <abbr class="badge">{{ link.conference_short }}</abbr>
+            {% endif %}
+          </div>
+          {% endif %}
+          <div class="publication-details">
+            <div class="title">
+              {% if link.pdf %}
+              <a href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.title }}</a>
+              {% elsif link.page %}
+              <a href="{{ link.page }}" target="_blank" rel="noopener">{{ link.title }}</a>
+              {% else %}
+              {{ link.title }}
+              {% endif %}
+            </div>
+            <div class="author">{{ link.authors }}</div>
+            <div class="periodical"><em>{{ link.conference }}</em></div>
+            {% if link.summary %}<div class="summary">{{ link.summary }}</div>{% endif %}
+            <div class="links">
+              {% if link.pdf %}<a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">PDF</a>{% endif %}
+              {% if link.code %}<a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Code</a>{% endif %}
+              {% if link.page %}<a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">Project Page</a>{% endif %}
+              {% if link.notes %}<strong class="publication-note">{{ link.notes }}</strong>{% endif %}
+            </div>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title">
-        {% if link.pdf %}
-        <a href="{{ link.pdf }}">{{ link.title }}</a>
-        {% elsif link.page %}
-        <a href="{{ link.page }}">{{ link.title }}</a>
-        {% else %}
-        {{ link.title }}
-        {% endif %}
-      </div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-      {% if link.summary %}
-      <div class="summary">{{ link.summary }}</div>
-      {% endif %}
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
-  </div>
-</div>
-</li>
-<br>
-{% endfor %}
+  {% endfor %}
 
-</ol>
-</details>
-{% endfor %}
-{% endfor %}
+  <p class="scholar-link">
+    <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Any discrepancy? Refer to my Google Scholar</a>.
+  </p>
 </div>
