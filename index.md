@@ -4,24 +4,34 @@ layout: homepage
 
 ## About Me
 
-I'm a PhD student at [MBZUAI](https://mbzuai.ac.ae/), advised by [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en). My research studies how multimodal systems can acquire new skills more efficiently through better learning algorithms and scalable post-training methods.
+I am a PhD researcher at [MBZUAI](https://mbzuai.ac.ae/), advised by [Alham Fikri Aji](https://scholar.google.com/citations?user=0Cyfqv4AAAAJ&hl=en). I build adaptive multimodal systems that can acquire new capabilities while preserving what they already know. My current work focuses on efficient adaptation for vision-language models, including efficient post-training, capability preservation, model training, and large-scale multimodal evaluation.
 
-Before joining MBZUAI, I worked as a Research Engineer at [Singapore Management University](https://www.smu.edu.sg/) under [Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en) on multilingual and multimodal learning. I completed my Bachelor’s at [Institut Teknologi Bandung](https://www.itb.ac.id/) under [Ayu Purwarianti](https://scholar.google.com/citations?user=8jUro_cAAAAJ&hl=en), where I worked on scalable explainable VQA data generation.
+Previously, I was a Research Engineer at [Singapore Management University](https://www.smu.edu.sg/) under [Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en), where I worked on multilingual and multimodal learning. During my undergraduate studies at [Institut Teknologi Bandung](https://www.itb.ac.id/) under [Ayu Purwarianti](https://scholar.google.com/citations?user=8jUro_cAAAAJ&hl=en), I developed efficient methods for generating explainable visual question-answering data.
 
-Ultimately, I hope to build multimodal systems that can perceive, reason, act, and more importantly **adapt** in open-world environments.
+My research goal is to develop self-improving multimodal systems that able to continuously learn from feedback and adapt how they act and reason to keep up with an everchanging world.
 
-## Research Interests
+## Research
 
-*How can an intelligent system improve itself efficiently without explicit supervision?*
+<div class="bluediv">
+How can we design multimodal systems that can efficiently perceive evolving world, acquire new skills, and continually improve themselves?
+</div>
 
-My research is centered on this question. I am interested in building multimodal systems that can keep improving from data, interaction, and observation, rather than relying only on larger pretraining datasets or brute-force scaling.
+- **Efficient learning** — efficient multimodal learning, VLM post-training, capability preservation
+- **Self-improvement** — test-time learning, test-time adaptation, self-refinement, continual learning, self evolving agents
+- **Reasoning and evaluation** — multimodal reasoning, multimodal robustness evaluation, multilingual, multicultural, and low-resource evaluation
 
-- **Efficient Multimodal Learning**  
-  I aspire to build methods to acquire multimodal capabilities with less data, less supervision, and less compute. I am particularly interested in learning via curriculum learning and better architecture.
-- **Self-Improving System**  
-  Then, I am also interested how such process can be done at inference time autonomously with proper training orchestration. This line of work includes [LinguDistill](https://arxiv.org/abs/2604.00829) and emerging efforts around inference-time adaptation and continual improvement.
-- **Large-scale Evaluations**  
-  I also develop benchmarks that diagnose where current multimodal systems fail and how progress should be measured. This includes work on [ConfusedTourists](https://arxiv.org/abs/2511.17004), [CountingTricks](https://arxiv.org/abs/2604.10039), [SeeingCulture](https://arxiv.org/abs/2509.16517), [WorldCuisine](https://arxiv.org/abs/2410.12705), [SEACrowd](https://arxiv.org/abs/2406.10118), and related evaluation efforts.
+<div class="bluediv">
+I am open to <strong>2027 Research Scientist Intern</strong>, <strong>Applied Scientist Intern</strong>, and <strong>Research Intern</strong> opportunities in multimodal AI, machine learning, and vision-language models.
+</div>
+
+## Experience
+
+- PhD Researcher — [MBZUAI](https://mbzuai.ac.ae/)
+- Research Engineer — [Singapore Management University](https://www.smu.edu.sg/)
+- Software Engineer — IT Bauschmiede
+- Data Scientist Intern — Supertype
+- Software Engineer Intern — [Blibli](https://www.blibli.com/)
+- Software Engineer Intern — [Ruangguru](https://www.ruangguru.com/)
 
 ## Updates
 
