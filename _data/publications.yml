@@ -1,6 +1,18 @@
 main:
   - year: 2026
+    theme: World Models
+    selected: embodied
+    title: "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation"
+    authors: <strong>Patrick Amadeus Irawan</strong>, Iskandar Muda Rizky Parlambang, Rava Maulana, Qinrong Cui, Erland Hilman Fuadi, ..., Shoubin Yu, Yue Zhang, Mohit Bansal, Alham Fikri Aji
+    conference_short: Preprint 2026
+    conference: Preprint, 2026.
+    image: ./assets/img/ego2act.png
+    notes: arXiv coming soon
+    summary: A 2,640-video benchmark of 110 real-world egocentric tasks testing whether video models can simulate multi-step, physically plausible manipulation toward a high-level goal; the best model scores only 64.0. Ego2ActJudge, a reference-free rubric judge, correlates with human consensus at r = 0.69.
+
+  - year: 2026
     theme: Adaptive Learning
+    selected: posttraining
     title: "LinguDistill: Recovering Linguistic Ability in Vision Language Models via Selective Cross-Modal Distillation"
     authors: <strong>Patrick Amadeus Irawan</strong>, Erland Hilman Fuadi, Shanu Kumar, Alham Fikri Aji, Yova Kementchedjhieva
     conference_short: Preprint
@@ -11,8 +23,9 @@ main:
 
   - year: 2026
     theme: Evaluation
+    selected: reasoning
     title: "Counting to Four is still a Chore for VLMs"
-    authors: Duy Le Dinh Anh, <strong>Patrick Amadeus Irawan</strong>, Tuan Van Vo
+    authors: Duy Le Dinh Anh*, <strong>Patrick Amadeus Irawan</strong>*, Tuan Van Vo
     conference_short: CVPR 2026 Workshop
     conference: Computer Vision and Pattern Recognition Conference <strong>(CVPR)</strong> Workshop, 2026.
     pdf: https://arxiv.org/abs/2604.10039
@@ -23,9 +36,9 @@ main:
   - year: 2026
     theme: Evaluation
     title: "Anthropogenic Regional Adaptation in Multimodal Vision-Language Model"
-    authors: Samuel Cahyawijaya, Peerat Limkonchotiwat, Tack Hwa Wong, Hitesh Laxmichand Patel, and others, including <strong>Patrick Amadeus Irawan</strong>
-    conference_short: Preprint
-    conference: Preprint, 2026.
+    authors: Samuel Cahyawijaya, Peerat Limkonchotiwat, Tack Hwa Wong, ..., <strong>Patrick Amadeus Irawan</strong>, et al.
+    conference_short: AACL 2026
+    conference: Asia-Pacific Chapter of the Association for Computational Linguistics <strong>(AACL)</strong>, 2026.
     pdf: https://arxiv.org/abs/2604.11490
     image: ./assets/img/anthropogenic-regional-adaptation.png
     summary: Regional data filtering and model merging improve Southeast Asian cultural relevance without sacrificing global performance.
@@ -33,7 +46,7 @@ main:
   - year: 2026
     theme: Evaluation
     title: "Can Large Language Models Understand, Reason About, and Generate Code-Switched Text?"
-    authors: Genta Indra Winata, David Anugraha, <strong>Patrick Amadeus Irawan</strong>, Anirban Das, Haneul Yoo, and others
+    authors: Genta Indra Winata, David Anugraha, <strong>Patrick Amadeus Irawan</strong>, Anirban Das, Haneul Yoo, et al.
     conference_short: Preprint
     conference: Preprint, 2026.
     pdf: https://arxiv.org/abs/2601.07153
@@ -43,31 +56,33 @@ main:
 
   - year: 2026
     theme: Evaluation
+    selected: reasoning
     title: "Vision Language Models are Confused Tourists"
-    authors: <strong>Patrick Amadeus Irawan</strong>, Ikhlasul Akmal Hanif, Muhammad Dehan Al Kautsar, Genta Indra Winata, Fajri Koto, Alham Fikri Aji
+    authors: <strong>Patrick Amadeus Irawan</strong>*, Ikhlasul Akmal Hanif*, Muhammad Dehan Al Kautsar, Genta Indra Winata, Fajri Koto, Alham Fikri Aji
     conference_short: CVPR 2026 Findings
     conference: Computer Vision and Pattern Recognition Conference <strong>(CVPR)</strong>, 2026 Findings.
-    pdf: https://arxiv.org/pdf/2511.17004
+    pdf: https://arxiv.org/abs/2511.17004
     image: ./assets/img/tourists.png
     summary: This study shows where VLMs misread culturally conflicting visual situations and which grounding failures standard benchmarks miss.
 
   - year: 2026
     theme: Adaptive Learning
+    selected: reasoning
     title: "M4-RAG: A Massive-Scale Multilingual Multi-Cultural Multimodal RAG"
     authors: David Anugraha, <strong>Patrick Amadeus Irawan</strong>, Anshul Singh, En-Shiun Annie Lee, Genta Indra Winata
     conference_short: CVPR 2026
     conference: Computer Vision and Pattern Recognition Conference <strong>(CVPR)</strong>, 2026.
-    pdf: https://www.arxiv.org/pdf/2512.05959
+    pdf: https://arxiv.org/abs/2512.05959
     image: ./assets/img/m4rag.png
     summary: M4-RAG tests when multimodal retrieval helps multilingual and multicultural question answering and when it fails.
 
   - year: 2025
     theme: Evaluation
     title: "Seeing Culture: A Benchmark for Visual Reasoning and Grounding"
-    authors: Burak Satar, Zhixin Ma, <strong>Patrick Amadeus Irawan</strong>, Wilfried A. Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo
+    authors: Burak Satar*, Zhixin Ma*, <strong>Patrick Amadeus Irawan</strong>, Wilfried A. Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo
     conference_short: EMNLP 2025
     conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2509.16517v1.pdf
+    pdf: https://arxiv.org/abs/2509.16517
     code: https://seeingculture-benchmark.github.io/
     image: ./assets/img/seeingculture.png
     notes: Poster
@@ -76,21 +91,22 @@ main:
   - year: 2025
     theme: Data-centric Learning
     title: "Entropy2Vec: Crosslingual Language Modeling Entropy as End-to-End Learnable Language Representations"
-    authors: <strong>Patrick Amadeus Irawan</strong>, Ryandito Diandaru, Belati Jagad Bintang Syuhada, Randy Zakya Suchrady, Alham Fikri Aji, Genta Indra Winata, Fajri Koto, Samuel Cahyawijaya
+    authors: <strong>Patrick Amadeus Irawan</strong>*, Ryandito Diandaru*, Belati Jagad Bintang Syuhada*, Randy Zakya Suchrady*, Alham Fikri Aji, Genta Indra Winata, Fajri Koto, Samuel Cahyawijaya*
     conference_short: MRL @ EMNLP 2025
     conference: Multilingual Representation Learning Workshop at <strong>EMNLP</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2509.05060
+    pdf: https://arxiv.org/abs/2509.05060
     image: ./assets/img/entropy2vec.png
     notes: Poster
     summary: Entropy2Vec turns language-model uncertainty into dense cross-lingual representations for multilingual NLP tasks.
 
   - year: 2025
     theme: Evaluation
+    selected: reasoning
     title: "WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines"
-    authors: Genta Indra Winata, Frederikus Hudi, <strong>Patrick Amadeus Irawan</strong>, David Anugraha, Rifki Afina Putri, Yutong Wang, Adam Nohejl, Ubaidillah Ariq Prathama, Nedjma Ousidhoum, and others
+    authors: Genta Indra Winata*, Frederikus Hudi*, <strong>Patrick Amadeus Irawan</strong>*, David Anugraha*, Rifki Afina Putri*, et al.
     conference_short: NAACL 2025
     conference: North American Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2410.12705.pdf
+    pdf: https://arxiv.org/abs/2410.12705
     code: https://worldcuisines.github.io/
     image: ./assets/img/worldcuisines.png
     notes: Best Theme Paper
@@ -102,7 +118,7 @@ main:
     authors: David Anugraha, Genta Indra Winata, Chenyue Li, <strong>Patrick Amadeus Irawan</strong>, En-Shiun Annie Lee
     conference_short: NAACL 2025
     conference: North American Chapter of the Association for Computational Linguistics <strong>(NAACL)</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2406.09334.pdf
+    pdf: https://arxiv.org/abs/2406.09334
     code: https://github.com/davidanugraha/proxylm
     image: ./assets/img/proxylm.png
     notes: Poster
@@ -110,11 +126,12 @@ main:
 
   - year: 2025
     theme: Data-centric Learning
+    selected: posttraining
     title: "Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models"
     authors: <strong>Patrick Amadeus Irawan</strong>, Genta Indra Winata, Samuel Cahyawijaya, Ayu Purwarianti
     conference_short: COLING 2025
     conference: International Conference on Computational Linguistics <strong>(COLING)</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2409.14785.pdf
+    pdf: https://arxiv.org/abs/2409.14785
     code: https://github.com/patrickamadeus/vqa-nle-llava
     image: ./assets/img/vqa-nle.png
     notes: Oral
@@ -123,20 +140,20 @@ main:
   - year: 2025
     theme: Evaluation
     title: "Datasheets Aren't Enough: DataRubrics for Automated Quality Metrics and Accountability"
-    authors: Genta Indra Winata, David Anugraha, Emmy Liu, Alham Fikri Aji, Shou-Yi Hung, Aditya Parashar, <strong>Patrick Amadeus Irawan</strong>, and others
+    authors: Genta Indra Winata, David Anugraha, Emmy Liu, Alham Fikri Aji, ..., <strong>Patrick Amadeus Irawan</strong>, et al.
     conference_short: Preprint
     conference: Preprint, 2025.
-    pdf: https://arxiv.org/pdf/2506.01789.pdf
+    pdf: https://arxiv.org/abs/2506.01789
     image: ./assets/img/datarubrics.png
     summary: DataRubrics scores dataset quality and accountability so audits are easier to compare.
 
   - year: 2024
     theme: Evaluation
     title: "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages"
-    authors: Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, Lester James V Miranda, Jennifer Santoso, Elyanah Aco, ..., <strong>Patrick Amadeus Irawan</strong>, and others
+    authors: Holy Lovenia, Rahmad Mahendra, Salsabil Maulana Akbar, ..., <strong>Patrick Amadeus Irawan</strong>, et al.
     conference_short: EMNLP 2024
     conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2024.
-    pdf: https://arxiv.org/pdf/2406.10118.pdf
+    pdf: https://arxiv.org/abs/2406.10118
     code: https://seacrowd.github.io/seacrowd-catalogue/
     image: ./assets/img/seacrowd.png
     notes: Poster
@@ -145,7 +162,7 @@ main:
   - year: 2024
     theme: Other
     title: "Leveraging IoT and Machine Learning for Efficient Rice Stock Monitoring and Prediction"
-    authors: Nana Sutisna, Aditya Prawira Nugroho, Christopher Jeffrey, <strong>Patrick Amadeus Irawan</strong>, Rizky Ramadhana, Ronggur Mahendra, Michael Jonathan, Infall Syafalni, Trio Adiono
+    authors: Nana Sutisna, Aditya Prawira Nugroho, Christopher Jeffrey, <strong>Patrick Amadeus Irawan</strong>, et al.
     conference_short: APSIPA ASC 2024
     conference: Asia Pacific Signal and Information Processing Association Annual Summit and Conference <strong>(APSIPA ASC)</strong>, 2024.
     pdf: http://www.apsipa2024.org/files/papers/375.pdf

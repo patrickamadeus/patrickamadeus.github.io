@@ -1,0 +1,168 @@
+# Content of the CV page (/cv/). Mirrors assets/files/curriculum_vitae.pdf; keep both in sync when editing.
+name: Patrick Amadeus Irawan
+contacts:
+  - label: "[first.last]@mbzuai.ac.ae"
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=ne6qtJ0AAAAJ
+  - label: Website
+    url: https://patrickamadeus.github.io/
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/patrickamadeus/
+  - label: Github
+    url: https://github.com/patrickamadeus
+
+summary: >-
+  My research goal is to build **trustworthy, self-improving multimodal agents** that perceive, reason, and act
+  reliably in the physical world. I develop **evaluation** and **post-training** methods for **vision-language and
+  video models**, with a current focus on **embodied AI**. My prior work spans **VLM post-training** and
+  **knowledge distillation**, multimodal reasoning and robustness, and multilingual and multicultural benchmarks.
+interests:
+  - multimodal
+  - VLM
+  - post-training
+  - reasoning
+  - embodied AI
+  - evaluation and benchmarks
+  - agents
+
+education:
+  - degree: Ph.D. in Natural Language Processing
+    school: MBZUAI
+    date: 2025 - 2029
+    detail: "Advisor: Alham Fikri Aji"
+    detail_link: Alham Fikri Aji
+    detail_url: https://afaji.github.io/
+  - degree: Global Study Program
+    school: University of California, Davis
+    date: "2023"
+    detail: computational neuroscience, tech management
+  - degree: Bachelor in Computer Science
+    school: Institut Teknologi Bandung
+    date: 2020 - 2024
+    detail: visual question answering; synthetic data generation; reasoning LLM
+
+publications_note: "* (Co-)first author   † Second author"
+publications:
+  - title: "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation"
+    marker: "*"
+    keywords: video generation, world model, evaluation, multi agent system, embodied agents
+    venue: Ongoing 2026
+  - title: "LinguDistill: Recovering Linguistic Ability in Vision Language Models via Selective Cross-Modal Distillation"
+    marker: "*"
+    keywords: VLM, SFT, post-training, knowledge distillation, architecture
+    venue: Preprint 2026
+    url: https://arxiv.org/abs/2604.00829
+  - title: "Anthropogenic Regional Adaptation in Multimodal Vision-Language Model"
+    keywords: VLM, SFT, post-training, data curation, evaluation, multilingual, multimodal
+    venue: AACL 2026
+    url: https://arxiv.org/abs/2604.11490
+  - title: "Vision Language Models are Confused Tourists"
+    marker: "*"
+    keywords: VLM, visual reasoning, robustness, hallucination, interpretability
+    venue: CVPR 2026
+    url: https://arxiv.org/abs/2511.17004
+  - title: "A Massive-Scale Multilingual Multi-Cultural Multimodal RAG"
+    marker: "†"
+    keywords: RAG, multilingual, multimodal, evaluation, test-time scaling
+    venue: CVPR 2026
+    url: https://arxiv.org/abs/2512.05959
+  - title: "Counting to Four is Still a Chore for VLMs"
+    marker: "*"
+    keywords: VLM, numerical reasoning, interpretability, RL
+    venue: CVPRW 2026
+    url: https://arxiv.org/abs/2604.10039
+  - title: "Crosslingual Language Modeling Entropy as End-to-End Learnable Language Representations"
+    marker: "*"
+    keywords: LLM, multilingual, representation learning, unsupervised learning
+    venue: EMNLPW 2025
+    url: https://arxiv.org/abs/2509.05060
+  - title: "WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural VQA on Global Cuisines"
+    marker: "*"
+    keywords: VQA, multilingual, multicultural, benchmark, evaluation, data curation
+    venue: NAACL 2025
+    award: Best Theme Paper
+    url: https://arxiv.org/abs/2410.12705
+  - title: "Seeing Culture: A Benchmark for Visual Reasoning and Grounding"
+    marker: "†"
+    keywords: visual grounding, evaluation, object detection, multicultural
+    venue: EMNLP 2025
+    url: https://arxiv.org/abs/2509.16517
+  - title: "Predicting Language Model Performance on Multilingual Tasks via Proxy Models"
+    keywords: multilingual, evaluation, efficient, regression, SFT
+    venue: NAACL 2025
+    url: https://arxiv.org/abs/2406.09334
+  - title: "Towards Efficient and Robust VQA-NLE Data Generation with Large Vision-Language Models"
+    marker: "*"
+    keywords: VQA, VLM, NLP, synthetic data generation, visual reasoning
+    venue: COLING 2025
+    url: https://arxiv.org/abs/2409.14785
+  - title: "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages"
+    keywords: multilingual, multicultural, video understanding, speech understanding, evaluation
+    venue: EMNLP 2024
+    url: https://arxiv.org/abs/2406.10118
+
+experience:
+  - role: Research Engineer
+    org: Singapore Management University
+    date: Feb 2025 – Sep 2025
+    bullets:
+      - Discovered up to a 30% performance degradation in frontier VLMs on a multicultural visual grounding & VQA benchmark, resulting in an EMNLP benchmark publication and an analysis-focused preprint.
+      - Reduced data validation timeline by days for 50K+ spatial annotations with an automated VLM-based evaluation pipeline that automatically flagged poor polygon segmentation via foreground-color ratios.
+      - Minimized model guessing shortcuts and ensured benchmark robustness by engineering a heuristic-based question-generation engine to synthesize hard adversarial distractors.
+  - role: Software Engineer
+    org: IT Bauschmiede
+    date: 2024–2025
+    bullets:
+      - Automated manual enterprise operations by integrating real-time scheduling, invoicing, and geolocation systems serving 3+ scaleup companies.
+      - Cut system latency by ~20% while maximizing uptime and scalability by architecting a microservices migration from a legacy monolithic MVC infrastructure.
+  - role: Data Science, SWE, Research Internships
+    org: Ruangguru, Blibli, Supertype
+    date: 2022-2024
+    bullets:
+      - Scaled command-line autograder software to support 1k+ concurrent users with 99% uptime.
+      - Contributed to an 8% increase in absolute approved test-case volume within 6 months at major corporation scale.
+      - Optimized a topic extraction pipeline, resulting in a 2x efficiency gain and 20% classification improvement.
+      - Led the development of real-time AR and RAG multimodal systems for a high-stakes demo of 20k+ audiences.
+
+honors:
+  - name: Columbia ML Summer School Scholarship
+    date: "2026"
+  - name: OpenAI Micro Grant Award Grantee
+    date: "2025"
+  - name: NAACL Best Theme Paper Award Winner
+    date: "2025"
+  - name: BCG SEA Emeralds Case Competition Winner
+    date: "2024"
+  - name: Indonesian International Student Mobility Awards @ UC Davis Awardee
+    date: "2023"
+  - name: DOMO Higher Education Case Competition Finalist
+    date: "2023"
+  - name: CSLeaders Full Bachelor Tuition Scholarship Awardee
+    date: "2022"
+  - name: Gemastik XV Data Mining Division Finalist
+    date: "2022"
+
+mentorship:
+  - name: Rava Maulana
+    topic: world models and evaluation
+    now: now Software Engineer at Tiket
+  - name: Iskandar Muda
+    topic: world models and evaluation
+    now: now M.Sc. student at Bandung Institute of Technology
+  - name: Qinrong Cui
+    topic: test-time adaptation for fine-grained visual understanding
+    now: now M.Sc. student at MBZUAI
+  - name: Wilfried Ariel
+    topic: multicultural object detection and evaluation
+    now: now Ph.D. student at NTU
+
+references:
+  - name: Alham Fikri Aji
+    title: Assistant Professor, MBZUAI
+    email: alham.fikri@mbzuai.ac.ae
+  - name: Genta Indra Winata
+    title: Principal Applied Researcher, Capital One
+    email: genta.winata@capitalone.com
+  - name: Samuel Cahyawijaya
+    title: Member of Technical Staff, Cohere
+    email: samuel.cahyawijaya@gmail.com

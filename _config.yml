@@ -1,9 +1,9 @@
 # Basic Information 
 title: Patrick Amadeus Irawan
-position: PhD Researcher
+position: PhD Student
 affiliation: MBZUAI
 affiliation_link: https://mbzuai.ac.ae/
-email: patrick.irawan@mbzuai.ac.ae
+email: "[first.last]@mbzuai.ac.ae"
 author: Patrick Amadeus Irawan
 locale: en_US
 url: https://patrickamadeus.github.io
@@ -11,9 +11,10 @@ baseurl: ""
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Patrick Amadeus Irawan, Patrick Irawan, patrickamadeus, MBZUAI, multimodal foundation models, multimodal alignment, vision-language models, large multimodal models, multimodal NLP, multilingual multimodal evaluation, multicultural benchmarks, VLM post-training, multimodal reasoning, multimodal retrieval augmented generation, WorldCuisines, Seeing Culture, SEACrowd, M4-RAG, ProxyLM, Entropy2Vec, DataRubrics, CVPR 2026, EMNLP 2025, NAACL 2025, COLING 2025, academic website, AI researcher
-description: Patrick Amadeus Irawan is a PhD student at MBZUAI working on multimodal foundation models, post-training and alignment, multilingual and multicultural evaluation, and grounded vision-language systems.
+keywords: Patrick Amadeus Irawan, Patrick Irawan, patrickamadeus, MBZUAI PhD student, vision-language models, VLM, multimodal LLM, VLM post-training, knowledge distillation, multimodal evaluation, benchmarks, world models, video generation, embodied AI, egocentric video, Ego2Act, LinguDistill, WorldCuisines, M4-RAG, Seeing Culture, multilingual multimodal, research scientist intern, applied scientist intern
+description: Patrick Amadeus Irawan is a PhD student at MBZUAI building evaluation and post-training methods for vision-language and video models, with a current focus on world models for embodied agents. Publications at CVPR, NAACL (Best Theme Paper), EMNLP, and COLING. Open to 2027 research internships.
 canonical: https://patrickamadeus.github.io/
+social_banner: ./assets/img/social-banner.png
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -22,10 +23,14 @@ cv_link: assets/files/curriculum_vitae.pdf
 github_link: https://github.com/patrickamadeus
 linkedin: https://www.linkedin.com/in/patrickamadeus/
 twitter: https://x.com/patrickamadeus_
+semantic_scholar: https://www.semanticscholar.org/author/2306258046
+# Uncomment once confirmed; each is added to the site's structured data (sameAs).
+# orcid: https://orcid.org/0009-0003-2474-141X
+# openreview: https://openreview.net/profile?id=~Your_OpenReview_Id1
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/pp.jpg
+avatar: ./assets/img/profile.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
@@ -48,6 +53,9 @@ google_analytics: G-5Q1EZ4DBG3
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: yaoyao-liu/minimal-light
+
+plugins:
+  - jekyll-sitemap
 
 # The following files will be removed from the generated website.
 exclude:

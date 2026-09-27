@@ -1,0 +1,6 @@
+<li>
+  {% if include.pub.pdf %}<a class="pub-title" href="{{ include.pub.pdf }}" target="_blank" rel="noopener">{{ include.pub.title }}</a>{% else %}<span class="pub-title nolink">{{ include.pub.title }}</span>{% endif %}<br>
+  <span class="pub-authors">{{ include.pub.authors }}</span><br>
+  <span class="pub-venue"><em>{{ include.pub.conference }}</em>{% if include.pub.notes %} <span class="pub-note">{{ include.pub.notes }}</span>{% endif %}</span>
+  <span class="pub-links">{% if include.pub.pdf %}{% if include.pub.pdf contains 'arxiv.org' %}[<a href="{{ include.pub.pdf }}" target="_blank" rel="noopener">arXiv</a>]{% else %}[<a href="{{ include.pub.pdf }}" target="_blank" rel="noopener">Paper</a>]{% endif %}{% endif %}{% if include.pub.code %} [<a href="{{ include.pub.code }}" target="_blank" rel="noopener">Code</a>]{% endif %}{% if include.pub.page %} [<a href="{{ include.pub.page }}" target="_blank" rel="noopener">Project</a>]{% endif %}</span>
+</li>
