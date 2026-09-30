@@ -9,7 +9,7 @@ layout: homepage
 
 I am a Ph.D. student at [MBZUAI](https://mbzuai.ac.ae/), advised by [Alham Fikri Aji](https://afaji.github.io/). Previously, I was a Research Engineer at [Singapore Management University](https://www.smu.edu.sg/) with [Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en), and received my B.S. in Computer Science from [Institut Teknologi Bandung](https://www.itb.ac.id/), advised by [Ayu Purwarianti](https://scholar.google.com/citations?user=8jUro_cAAAAJ&hl=en).
 
-I build **evaluation** and **post-training** methods for **vision-language and video models**, with a current focus on **embodied AI**. My overarching goal is to build **trustworthy, self-improving multimodal agents**.
+I build **evaluation** and **post-training** methods for **vision-language and video models**, with a current focus on **embodied AI**. My overarching goal is to build **robust, self-improving multimodal agents**.
 
 My work has appeared at CVPR, NAACL, EMNLP, COLING, and AACL, and received the **Best Theme Paper Award** at NAACL 2025.
 
