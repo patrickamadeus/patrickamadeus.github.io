@@ -13,7 +13,7 @@ contacts:
 
 summary: >-
   My research goal is to build **robust, self-improving multimodal agents** that perceive, reason, and act
-  reliably in the physical world. I develop **evaluation** and **post-training** methods for **vision-language and
+  reliably across diverse environments. I develop **evaluation** and **post-training** methods for **vision-language and
   video models**, with a current focus on **embodied AI**. My prior work spans **VLM post-training** and
   **knowledge distillation**, multimodal reasoning and robustness, and multilingual and multicultural benchmarks.
 interests:

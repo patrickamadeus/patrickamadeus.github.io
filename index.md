@@ -34,7 +34,7 @@ I am looking for <strong>2027 Research Scientist, Applied Scientist, and Researc
 ## Research Interests
 
 <ul class="interests">
-  <li><strong>Embodied AI and world models</strong>: models that simulate and act in the physical world reliably.</li>
+  <li><strong>Embodied AI and world models</strong>: whether models can faithfully simulate goal-directed actions in the physical world.</li>
   <li><strong>Multimodal post-training</strong>: adding capabilities efficiently without forgetting existing ones.</li>
   <li><strong>Multimodal reasoning and evaluation</strong>: finding where models fail, across tasks, languages, and cultures.</li>
 </ul>
