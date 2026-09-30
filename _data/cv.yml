@@ -47,6 +47,7 @@ publications:
     marker: "*"
     keywords: video generation, world model, evaluation, multi agent system, embodied agents
     venue: Ongoing 2026
+    url: https://ego2act.github.io/
   - title: "LinguDistill: Recovering Linguistic Ability in Vision Language Models via Selective Cross-Modal Distillation"
     marker: "*"
     keywords: VLM, SFT, post-training, knowledge distillation, architecture

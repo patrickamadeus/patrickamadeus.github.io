@@ -6,6 +6,7 @@ main:
     authors: <strong>Patrick Amadeus Irawan</strong>, Iskandar Muda Rizky Parlambang, Rava Maulana, Qinrong Cui, Erland Hilman Fuadi, ..., Shoubin Yu, Yue Zhang, Mohit Bansal, Alham Fikri Aji
     conference_short: Preprint 2026
     conference: Preprint, 2026.
+    page: https://ego2act.github.io/
     image: ./assets/img/ego2act.png
     notes: arXiv coming soon
     summary: A 2,640-video benchmark of 110 real-world egocentric tasks testing whether video models can simulate multi-step, physically plausible manipulation toward a high-level goal; the best model scores only 64.0. Ego2ActJudge, a reference-free rubric judge, correlates with human consensus at r = 0.69.
