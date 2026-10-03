@@ -14,7 +14,7 @@ contacts:
 summary: >-
   My research goal is to build **robust, self-improving multimodal agents** that perceive, reason, and act
   reliably across diverse environments. I develop **evaluation** and **post-training** methods for **vision-language and
-  video models**, with a current focus on **embodied AI**. My prior work spans **VLM post-training** and
+  video models**, with a current focus on **interactive environments**. My prior work spans **VLM post-training** and
   **knowledge distillation**, multimodal reasoning and robustness, and multilingual and multicultural benchmarks.
 interests:
   - multimodal reasoning and evaluation
@@ -43,7 +43,7 @@ publications:
     marker: "*"
     keywords: video generation, world model, evaluation, multi agent system, embodied agents
     venue: "arXiv 2026"
-    url: https://arxiv.org/abs/2610.01092
+    url: https://ego2act.github.io/
   - title: "LinguDistill: Recovering Linguistic Ability in Vision Language Models via Selective Cross-Modal Distillation"
     marker: "*"
     keywords: VLM, SFT, post-training, knowledge distillation, architecture

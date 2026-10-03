@@ -12,7 +12,7 @@ baseurl: ""
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Patrick Amadeus Irawan, Patrick Irawan, patrickamadeus, MBZUAI PhD student, vision-language models, VLM, multimodal LLM, VLM post-training, knowledge distillation, multimodal evaluation, benchmarks, world models, video generation, embodied AI, egocentric video, Ego2Act, LinguDistill, WorldCuisines, M4-RAG, Seeing Culture, multilingual multimodal, research scientist intern, applied scientist intern
-description: Patrick Amadeus Irawan is a PhD student at MBZUAI building evaluation and post-training methods for vision-language and video models, with a current focus on world models for embodied agents. Publications at CVPR, NAACL (Best Theme Paper), EMNLP, and COLING. Open to 2027 research internships.
+description: Patrick Amadeus Irawan is a PhD student at MBZUAI building evaluation and post-training methods for vision-language and video models, with a current focus on interactive environments and world models. Publications at CVPR, NAACL (Best Theme Paper), EMNLP, and COLING. Open to 2027 research internships.
 canonical: https://patrickamadeus.github.io/
 social_banner: ./assets/img/social-banner.png
 
