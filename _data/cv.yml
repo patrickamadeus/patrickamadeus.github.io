@@ -20,6 +20,7 @@ interests:
   - multimodal reasoning and evaluation
   - multimodal post-training
   - interactive environments and world models
+  - embodied AI
 
 education:
   - degree: Ph.D. in Natural Language Processing
@@ -42,7 +43,7 @@ publications:
   - title: "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation"
     marker: "*"
     keywords: video generation, world model, evaluation, multi agent system, embodied agents
-    venue: "arXiv 2026"
+    venue: Preprint 2026
     url: https://ego2act.github.io/
   - title: "LinguDistill: Recovering Linguistic Ability in Vision Language Models via Selective Cross-Modal Distillation"
     marker: "*"
