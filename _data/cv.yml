@@ -17,13 +17,9 @@ summary: >-
   video models**, with a current focus on **embodied AI**. My prior work spans **VLM post-training** and
   **knowledge distillation**, multimodal reasoning and robustness, and multilingual and multicultural benchmarks.
 interests:
-  - multimodal
-  - VLM
-  - post-training
-  - reasoning
-  - embodied AI
-  - evaluation and benchmarks
-  - agents
+  - multimodal reasoning and evaluation
+  - multimodal post-training
+  - interactive environments and world models
 
 education:
   - degree: Ph.D. in Natural Language Processing
