@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll",
+      "runtimeExecutable": "/private/tmp/claude-502/-Users-patrick-irawan-Desktop-Organized-Projects-Repositories-patrickamadeus-github-io/448a37b3-bfc6-434e-bd89-0de34d692303/scratchpad/serve.sh",
+      "runtimeArgs": [],
+      "port": 4000
+    }
+  ]
+}

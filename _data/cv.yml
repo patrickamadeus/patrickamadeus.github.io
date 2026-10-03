@@ -42,8 +42,8 @@ publications:
   - title: "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation"
     marker: "*"
     keywords: video generation, world model, evaluation, multi agent system, embodied agents
-    venue: Preprint 2026
-    url: https://ego2act.github.io/
+    venue: "arXiv 2026"
+    url: https://arxiv.org/abs/2610.01092
   - title: "LinguDistill: Recovering Linguistic Ability in Vision Language Models via Selective Cross-Modal Distillation"
     marker: "*"
     keywords: VLM, SFT, post-training, knowledge distillation, architecture

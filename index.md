@@ -44,7 +44,7 @@ I am looking for <strong>2027 Research Scientist, Applied Scientist, and Researc
 <div class="news-box">
 <ul class="news">
   <li><span class="date">2026</span>: <a href="https://arxiv.org/abs/2604.11490">Regional Adaptation</a> is accepted to <strong>AACL 2026</strong>.</li>
-  <li><span class="date">2026</span>: <a href="https://ego2act.github.io/"><strong>Ego2Act</strong></a>, a benchmark for goal-directed egocentric video generation, is coming to arXiv soon.</li>
+  <li><span class="date">Oct. 2026</span>: <a href="https://arxiv.org/abs/2610.01092"><strong>Ego2Act</strong></a>, a benchmark for goal-directed egocentric video generation, is on arXiv. <a href="https://ego2act.github.io/">[Project]</a></li>
   <li><span class="date">Apr. 2026</span>: <a href="https://arxiv.org/abs/2604.00829">LinguDistill</a> is out on arXiv.</li>
   <li><span class="date">Feb. 2026</span>: <a href="https://arxiv.org/abs/2512.05959">M4-RAG</a> (CVPR 2026) and <a href="https://arxiv.org/abs/2511.17004">Confused Tourists</a> (CVPR 2026 Findings) are accepted.</li>
   <li><span class="date">Oct. 2025</span>: <a href="https://arxiv.org/abs/2509.05060">Entropy2Vec</a> is accepted to the MRL Workshop at <strong>EMNLP 2025</strong>.</li>
